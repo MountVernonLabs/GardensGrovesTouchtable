@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml tuio="false" simulator="false" css="library/assets/styles.css">
+
+	<LibraryKit>
+		<Library type="swf" src="library/assets/openexhibits_assets.swf" />
+	</LibraryKit>
+
+	<StageKit fullscreen="true" />
+	
+	<Attract id="attract" timeout="120" tweenFades="true" tweenTime="0.5">
+		<Container width="1920" height="1080">
+			<Image src="library/assets/ui/bg-begin.png" />
+			<Image src="library/assets/ui/title-card.png" x="10" y="10"/>
+			<Image id="instructions" x="588" y="233" src="library/assets/ui/intro-card.png"/>
+		</Container>
+	</Attract> 
+	
+	<!-- Backgrounds -->
+	<Background>
+		<Container class="garden03-bg" width="1920" height="1080">	 
+			<Image  id="bg-3" src="library/assets/ui/bg-map-03.png" visible="true"/> 
+			<Include src="locations/bg-markers3.cml"/>
+		</Container>
+		
+		<Container class="garden02-bg" width="1920" height="1080">	
+			<Image id="bg-2" src="library/assets/ui/bg-map-02.png" visible="true"/> 
+			
+			<Include src="locations/bg-markers2.cml"/>
+			
+		</Container>
+		
+		<Container class="garden01-bg" width="1920" height="1080">		
+			<Image id="bg-1" src="library/assets/ui/bg-map-01.png" visible="true"/>
+			
+			<Include src="locations/bg-markers.cml"/>
+			
+		</Container>
+		
+		<Container width="1920" height="1080">	
+			<Image src="library/assets/ui/title-card.png" x="10" y="10"/> 
+			<Image id="background" x="1469" y="1025" src="library/assets/ui/selector-bg.png"/>
+		</Container>
+	</Background>
+	
+	<!-- Slider Bar -->
+	<Include src="library/cml/buttons/slider.cml"/> 
+	
+	<!-- Marker Renderer -->
+	<Include src="library/cml/renderers/markers.cml"/> 
+
+	<!-- Viewer Renderer -->
+	<Include src="library/cml/viewers.cml"/>	
+	
+</cml>

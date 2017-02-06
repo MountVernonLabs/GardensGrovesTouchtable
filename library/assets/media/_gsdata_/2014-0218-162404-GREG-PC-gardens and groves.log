@@ -1,0 +1,134 @@
+2014-02-18 16:24:04: -- gardens and groves: ANALYSIS started by User on 'GREG-PC' (GoodSync 9.5.6.6)
+2014-02-18 16:24:04: Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media =PropDels=> C:\repo\cs007-gardens-and-groves\bin\library\assets\media
+2014-02-18 16:24:04: L: Files: 81 (excluded 67). Folders: 1 (excluded 2). Z: \\10.1.10.100\media NTFS, Free: 58.4 GB, Total: 458 GB
+2014-02-18 16:24:04: R: Files: 41 (excluded 0). Folders: 0 (excluded 1). C: NTFS, Free: 340 GB, Total: 465 GB
+2014-02-18 16:24:04: /approach-1.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /approach-2.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /botanical-1.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /botanical-2.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /bowling-1.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /bowling-2.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /bowling-3.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /bowling-4.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /garden-lower-1.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /garden-lower-2.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /garden-upper-2.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /ghsq-1.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /ghsq-2.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /ghsq-3.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /greenhouse-1.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /greenhouse-2.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /greenhouse-3.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /greenhouse-4.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /groves-1.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /gw-peale-1.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /gw-peale-2.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /house-for-families-1.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /lawrence-washington-1.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /mansion-1.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /mansion-2.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /mansion-3.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /mw-peale.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /mw-wollaston.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /outbuildings-1-1.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /outbuildings-2-1.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /outbuildings-2-2.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /outbuildings-2-3.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /outbuildings-2-4.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /potomac-1.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /potomac-2.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /potomac-3.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /potomac-4.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /slave-quarter-1.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: /slave-quarter-2.png: Warning: Older file to replace Newer file
+2014-02-18 16:24:04: Changes: 83, Conflicts: 0, CopyTime: 0, CopyState: 41/41, Errors: 0
+2014-02-18 16:24:04: Left to Right: Copy File: 81 Rename/Move File/Folder: 2 Copy State: 41 
+2014-02-18 16:24:04: -- Analysis Completed. Time 00:00:00, Speed: Many files/s
+2014-02-18 16:24:04: 
+2014-02-18 16:24:06: == gardens and groves: SYNC started by User on 'GREG-PC'
+2014-02-18 16:24:06: Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media =PropDels=> C:\repo\cs007-gardens-and-groves\bin\library\assets\media
+2014-02-18 16:24:06: Create Folder 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap'
+2014-02-18 16:24:06: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\approach-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\approach-1.png'
+2014-02-18 16:24:06: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\approach-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\approach-2.png'
+2014-02-18 16:24:07: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\botanical-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\botanical-1.png'
+2014-02-18 16:24:07: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\botanical-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\botanical-2.png'
+2014-02-18 16:24:07: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\bowling-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\bowling-1.png'
+2014-02-18 16:24:07: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\bowling-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\bowling-2.png'
+2014-02-18 16:24:07: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\bowling-3.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\bowling-3.png'
+2014-02-18 16:24:07: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\bowling-4.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\bowling-4.png'
+2014-02-18 16:24:07: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\garden-lower-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\garden-lower-1.png'
+2014-02-18 16:24:08: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\garden-lower-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\garden-lower-2.png'
+2014-02-18 16:24:08: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\garden-upper-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\garden-upper-1.png'
+2014-02-18 16:24:08: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\garden-upper-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\garden-upper-2.png'
+2014-02-18 16:24:08: Move File C:\repo\cs007-gardens-and-groves\bin\library\assets\media\gg-caption.psd -> C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\gg-caption.psd
+2014-02-18 16:24:08: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\ghsq-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\ghsq-1.png'
+2014-02-18 16:24:08: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\ghsq-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\ghsq-2.png'
+2014-02-18 16:24:08: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\ghsq-3.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\ghsq-3.png'
+2014-02-18 16:24:08: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\greenhouse-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\greenhouse-1.png'
+2014-02-18 16:24:08: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\greenhouse-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\greenhouse-2.png'
+2014-02-18 16:24:08: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\greenhouse-3.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\greenhouse-3.png'
+2014-02-18 16:24:08: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\greenhouse-4.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\greenhouse-4.png'
+2014-02-18 16:24:09: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\groves-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\groves-1.png'
+2014-02-18 16:24:09: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\gw-peale-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\gw-peale-1.png'
+2014-02-18 16:24:09: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\gw-peale-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\gw-peale-2.png'
+2014-02-18 16:24:09: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\house-for-families-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\house-for-families-1.png'
+2014-02-18 16:24:09: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\lawrence-washington-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\lawrence-washington-1.png'
+2014-02-18 16:24:09: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\mansion-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\mansion-1.png'
+2014-02-18 16:24:09: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\mansion-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\mansion-2.png'
+2014-02-18 16:24:09: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\mansion-3.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\mansion-3.png'
+2014-02-18 16:24:09: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\mw-peale.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\mw-peale.png'
+2014-02-18 16:24:09: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\mw-wollaston.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\mw-wollaston.png'
+2014-02-18 16:24:09: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\outbuildings-1-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\outbuildings-1-1.png'
+2014-02-18 16:24:10: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\outbuildings-2-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\outbuildings-2-1.png'
+2014-02-18 16:24:10: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\outbuildings-2-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\outbuildings-2-2.png'
+2014-02-18 16:24:10: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\outbuildings-2-3.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\outbuildings-2-3.png'
+2014-02-18 16:24:10: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\outbuildings-2-4.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\outbuildings-2-4.png'
+2014-02-18 16:24:10: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\potomac-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\potomac-1.png'
+2014-02-18 16:24:10: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\potomac-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\potomac-2.png'
+2014-02-18 16:24:10: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\potomac-3.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\potomac-3.png'
+2014-02-18 16:24:10: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\potomac-4.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\potomac-4.png'
+2014-02-18 16:24:11: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\slave-quarter-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\slave-quarter-1.png'
+2014-02-18 16:24:11: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\slave-quarter-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\slave-quarter-2.png'
+2014-02-18 16:24:11: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\approach-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\approach-1.png'
+2014-02-18 16:24:11: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\approach-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\approach-2.png'
+2014-02-18 16:24:11: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\botanical-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\botanical-1.png'
+2014-02-18 16:24:11: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\botanical-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\botanical-2.png'
+2014-02-18 16:24:11: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\bowling-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\bowling-1.png'
+2014-02-18 16:24:11: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\bowling-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\bowling-2.png'
+2014-02-18 16:24:12: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\bowling-3.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\bowling-3.png'
+2014-02-18 16:24:12: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\bowling-4.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\bowling-4.png'
+2014-02-18 16:24:12: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\garden-lower-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\garden-lower-1.png'
+2014-02-18 16:24:12: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\garden-lower-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\garden-lower-2.png'
+2014-02-18 16:24:12: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\garden-upper-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\garden-upper-1.png'
+2014-02-18 16:24:12: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\garden-upper-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\garden-upper-2.png'
+2014-02-18 16:24:12: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\ghsq-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\ghsq-1.png'
+2014-02-18 16:24:12: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\ghsq-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\ghsq-2.png'
+2014-02-18 16:24:13: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\ghsq-3.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\ghsq-3.png'
+2014-02-18 16:24:13: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\greenhouse-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\greenhouse-1.png'
+2014-02-18 16:24:13: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\greenhouse-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\greenhouse-2.png'
+2014-02-18 16:24:13: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\greenhouse-3.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\greenhouse-3.png'
+2014-02-18 16:24:13: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\greenhouse-4.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\greenhouse-4.png'
+2014-02-18 16:24:13: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\groves-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\groves-1.png'
+2014-02-18 16:24:13: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\gw-peale-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\gw-peale-1.png'
+2014-02-18 16:24:13: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\gw-peale-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\gw-peale-2.png'
+2014-02-18 16:24:13: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\house-for-families-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\house-for-families-1.png'
+2014-02-18 16:24:13: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\lawrence-washington-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\lawrence-washington-1.png'
+2014-02-18 16:24:13: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\mansion-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\mansion-1.png'
+2014-02-18 16:24:13: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\mansion-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\mansion-2.png'
+2014-02-18 16:24:13: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\mansion-3.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\mansion-3.png'
+2014-02-18 16:24:14: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\mw-peale.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\mw-peale.png'
+2014-02-18 16:24:14: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\mw-wollaston.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\mw-wollaston.png'
+2014-02-18 16:24:14: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\outbuildings-1-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\outbuildings-1-1.png'
+2014-02-18 16:24:14: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\outbuildings-2-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\outbuildings-2-1.png'
+2014-02-18 16:24:14: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\outbuildings-2-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\outbuildings-2-2.png'
+2014-02-18 16:24:14: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\outbuildings-2-3.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\outbuildings-2-3.png'
+2014-02-18 16:24:14: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\outbuildings-2-4.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\outbuildings-2-4.png'
+2014-02-18 16:24:14: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\potomac-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\potomac-1.png'
+2014-02-18 16:24:14: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\potomac-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\potomac-2.png'
+2014-02-18 16:24:14: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\potomac-3.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\potomac-3.png'
+2014-02-18 16:24:15: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\potomac-4.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\potomac-4.png'
+2014-02-18 16:24:15: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\slave-quarter-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\slave-quarter-1.png'
+2014-02-18 16:24:15: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\w-cap\slave-quarter-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\w-cap\slave-quarter-2.png'
+2014-02-18 16:24:15: Items Synced OK: 164, Errors: 0
+2014-02-18 16:24:15: == Sync Completed. Time: 00:00:09, Speed: 7.28 MB/s (11.2 MB/s)
+2014-02-18 16:24:15: 

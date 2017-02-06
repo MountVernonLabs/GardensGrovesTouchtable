@@ -1,0 +1,62 @@
+2014-02-10 16:37:57: -- gardens and groves: ANALYSIS started by User on 'GREG-PC' (GoodSync 9.5.6.6)
+2014-02-10 16:37:57: Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui =PropDels=> C:\repo\cs007-gardens-and-groves\bin\library\assets\ui
+2014-02-10 16:37:57: L: Files: 25 (excluded 24). Folders: 0 (excluded 1). Z: \\10.1.10.100\media NTFS, Free: 59.2 GB, Total: 458 GB
+2014-02-10 16:37:57: R: Files: 24 (excluded 0). Folders: 0 (excluded 1). C: NTFS, Free: 346 GB, Total: 465 GB
+2014-02-10 16:37:57: /arrow.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: /bg-begin.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: /bg-intro.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: /bg-map-01.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: /bg-map-02.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: /bg-map-03.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: /intro-card.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: /mf-arrow-left.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: /mf-arrow-right.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: /mf-bg.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: /mf-close.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: /mf-trim-bottom.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: /mf-trim-top.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: /pin-active.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: /pin-inactive.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: /selector-1758-active.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: /selector-1758-inactive.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: /selector-1784-active.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: /selector-1784-inactive.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: /selector-1799-active.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: /selector-1799-inactive.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: /selector-bg.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: /selector-slider.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: /title-card.png: Warning: Older file to replace Newer file
+2014-02-10 16:37:57: Changes: 25, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-02-10 16:37:57: Left to Right: Copy File: 25 
+2014-02-10 16:37:57: -- Analysis Completed. Time 00:00:00, Speed: Many files/s
+2014-02-10 16:37:57: 
+2014-02-10 16:37:59: == gardens and groves: SYNC started by User on 'GREG-PC'
+2014-02-10 16:37:59: Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui =PropDels=> C:\repo\cs007-gardens-and-groves\bin\library\assets\ui
+2014-02-10 16:37:59: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\arrow.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\arrow.png'
+2014-02-10 16:37:59: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\bg-begin.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\bg-begin.png'
+2014-02-10 16:38:00: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\bg-intro.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\bg-intro.png'
+2014-02-10 16:38:00: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\bg-map-01.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\bg-map-01.png'
+2014-02-10 16:38:00: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\bg-map-02.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\bg-map-02.png'
+2014-02-10 16:38:00: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\bg-map-03.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\bg-map-03.png'
+2014-02-10 16:38:01: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\intro-card.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\intro-card.png'
+2014-02-10 16:38:01: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\mf-arrow-left.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\mf-arrow-left.png'
+2014-02-10 16:38:01: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\mf-arrow-right.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\mf-arrow-right.png'
+2014-02-10 16:38:01: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\mf-bg-sm.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\mf-bg-sm.png'
+2014-02-10 16:38:01: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\mf-bg.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\mf-bg.png'
+2014-02-10 16:38:01: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\mf-close.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\mf-close.png'
+2014-02-10 16:38:01: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\mf-trim-bottom.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\mf-trim-bottom.png'
+2014-02-10 16:38:01: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\mf-trim-top.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\mf-trim-top.png'
+2014-02-10 16:38:01: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\pin-active.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\pin-active.png'
+2014-02-10 16:38:01: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\pin-inactive.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\pin-inactive.png'
+2014-02-10 16:38:01: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\selector-1758-active.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\selector-1758-active.png'
+2014-02-10 16:38:01: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\selector-1758-inactive.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\selector-1758-inactive.png'
+2014-02-10 16:38:01: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\selector-1784-active.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\selector-1784-active.png'
+2014-02-10 16:38:01: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\selector-1784-inactive.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\selector-1784-inactive.png'
+2014-02-10 16:38:01: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\selector-1799-active.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\selector-1799-active.png'
+2014-02-10 16:38:01: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\selector-1799-inactive.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\selector-1799-inactive.png'
+2014-02-10 16:38:01: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\selector-bg.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\selector-bg.png'
+2014-02-10 16:38:01: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\selector-slider.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\selector-slider.png'
+2014-02-10 16:38:01: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\title-card.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\title-card.png'
+2014-02-10 16:38:01: Items Synced OK: 25, Errors: 0
+2014-02-10 16:38:01: == Sync Completed. Time: 00:00:02, Speed: 7.61 MB/s (323 KB/s)
+2014-02-10 16:38:01: 

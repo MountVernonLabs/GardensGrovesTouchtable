@@ -1,0 +1,14 @@
+2014-02-12 15:37:38: -- gardens and groves: ANALYSIS started by User on 'GREG-PC' (GoodSync 9.5.6.6)
+2014-02-12 15:37:38: Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui =PropDels=> C:\repo\cs007-gardens-and-groves\bin\library\assets\ui
+2014-02-12 15:37:38: L: Files: 26 (excluded 25). Folders: 0 (excluded 1). Z: \\10.1.10.100\media NTFS, Free: 59.1 GB, Total: 458 GB
+2014-02-12 15:37:38: R: Files: 25 (excluded 0). Folders: 0 (excluded 1). C: NTFS, Free: 343 GB, Total: 465 GB
+2014-02-12 15:37:38: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-02-12 15:37:38: Left to Right: Copy File: 1 
+2014-02-12 15:37:38: -- Analysis Completed. Time 00:00:00, Speed: Many files/s
+2014-02-12 15:37:38: 
+2014-02-12 15:37:39: == gardens and groves: SYNC started by User on 'GREG-PC'
+2014-02-12 15:37:39: Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui =PropDels=> C:\repo\cs007-gardens-and-groves\bin\library\assets\ui
+2014-02-12 15:37:39: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\gradient.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\gradient.png'
+2014-02-12 15:37:39: Items Synced OK: 1, Errors: 0
+2014-02-12 15:37:39: == Sync Completed. Time: 00:00:00, Speed: 9.82 MB/s (10.9 MB/s)
+2014-02-12 15:37:39: 

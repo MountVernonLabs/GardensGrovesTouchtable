@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<cml>
+    <Image class="bg-marker-1" src="library/assets/ui/pin-inactive.png" visible="true" x="911" y="56">
+        <Graphic alpha="1" color="0x392C1E" fill="color" height="30" id="btn" shape="rectangle" width="110" x="25" y="5"/>
+        <Text color="0xffffff" font="BaskervilleSemiBold" fontSize="16" id="titleAlbum" text="Mansion" width="350" x="50" y="10"/>
+    </Image>
+    <Image class="bg-marker-1" src="library/assets/ui/pin-inactive.png" visible="true" x="1033" y="139">
+        <Graphic alpha="1" color="0x392C1E" fill="color" height="30" id="btn" shape="rectangle" width="144" x="25" y="5"/>
+        <Text color="0xffffff" font="BaskervilleSemiBold" fontSize="16" id="titleAlbum" text="Outbuildings" width="350" x="50" y="10"/>
+    </Image>
+    <Image class="bg-marker-1" src="library/assets/ui/pin-inactive.png" visible="true" x="600" y="232">
+        <Graphic alpha="1" color="0x392C1E" fill="color" height="30" id="btn" shape="rectangle" width="190" x="25" y="5"/>
+        <Text color="0xffffff" font="BaskervilleSemiBold" fontSize="16" id="titleAlbum" text="House for Families" width="350" x="50" y="10"/>
+    </Image>
+    <Image class="bg-marker-1" src="library/assets/ui/pin-inactive.png" visible="true" x="1050" y="80">
+        <Graphic alpha="1" color="0x392C1E" fill="color" height="30" id="btn" shape="rectangle" width="210" x="25" y="5"/>
+        <Text color="0xffffff" font="BaskervilleSemiBold" fontSize="16" id="titleAlbum" text="Lawrence Washington" width="350" x="50" y="10"/>
+    </Image>
+    <Image class="bg-marker-1" src="library/assets/ui/pin-inactive.png" visible="true" x="943" y="559">
+        <Graphic alpha="1" color="0x392C1E" fill="color" height="30" id="btn" shape="rectangle" width="115" x="25" y="5"/>
+        <Text color="0xffffff" font="BaskervilleSemiBold" fontSize="16" id="titleAlbum" text="Approach" width="350" x="50" y="10"/>
+    </Image>
+    <Image class="bg-marker-1" src="library/assets/ui/pin-inactive.png" visible="true" x="522" y="435">
+        <Graphic alpha="1" color="0x392C1E" fill="color" height="30" id="btn" shape="rectangle" width="130" x="25" y="5"/>
+        <Text color="0xffffff" font="BaskervilleSemiBold" fontSize="16" id="titleAlbum" text="North Lane" width="350" x="50" y="10"/>
+    </Image>  
+</cml>

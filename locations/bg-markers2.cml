@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml>
+    <Image class="bg-marker-2" src="library/assets/ui/pin-inactive.png" visible="true" x="911" y="56">
+        <Graphic alpha="1" color="0x392C1E" fill="color" height="30" id="btn" shape="rectangle" width="110" x="25" y="5"/>
+        <Text color="0xffffff" font="BaskervilleSemiBold" fontSize="16" id="titleAlbum" text="Mansion" width="350" x="50" y="10"/>
+    </Image>
+    <Image class="bg-marker-2" src="library/assets/ui/pin-inactive.png" visible="true" x="714" y="200">
+        <Graphic alpha="1" color="0x392C1E" fill="color" height="30" id="btn" shape="rectangle" width="150" x="25" y="5"/>
+        <Text color="0xffffff" font="BaskervilleSemiBold" fontSize="16" id="titleAlbum" text="Outbuildings " width="350" x="50" y="10"/>
+    </Image>
+    <Image class="bg-marker-2" src="library/assets/ui/pin-inactive.png" visible="true" x="1050" y="80">
+        <Graphic alpha="1" color="0x392C1E" fill="color" height="30" id="btn" shape="rectangle" width="290" x="25" y="5"/>
+        <Text color="0xffffff" font="BaskervilleSemiBold" fontSize="16" id="titleAlbum" text="George and Martha Washington" width="350" x="50" y="10"/>
+    </Image>
+    <Image class="bg-marker-2" src="library/assets/ui/pin-inactive.png" visible="true" x="689" y="372">
+        <Graphic alpha="1" color="0x392C1E" fill="color" height="30" id="btn" shape="rectangle" width="168" x="25" y="5"/>
+        <Text color="0xffffff" font="BaskervilleSemiBold" fontSize="16" id="titleAlbum" text="Walled Gardens" width="350" x="50" y="10"/>
+    </Image>
+</cml>

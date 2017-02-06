@@ -1,0 +1,1029 @@
+<?xml version="1.0" ?>
+<cml>
+    <AlbumViewer2 affineTransform="true" autoTextLayout="false" class="viewers" clusterBubbling="true" front="#front" gestureReleaseInertia="true" id="Mansion1-PopUp" mouseChildren="true" nativeTransform="true" visible="false">
+        <TouchContainer2 affineTransform="true" id="titleTouch" mouseChildren="true" nativeTransform="false" targetParent="false">
+            <Image src="library/assets/ui/mf-bg.png"/>
+            <Image src="library/assets/ui/mf-trim-bottom.png" x="2" y="410"/>
+            <Image height="350" src="library/assets/ui/gradient.png" width="500" x="2" y="60"/>
+            <Text color="0x000000" font="BaskervilleBold" fontSize="24" id="titleAlbum" text="Mansion" width="500" x="10" y="10"/>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <Image src="library/assets/ui/mf-trim-top.png" x="2" y="54"/>
+        </TouchContainer2>
+        <Album affineTransform="true"  applyMask="true" centerContent="false" dragGesture="album-drag" gestureReleaseInertia="true" height="350" horizontal="true" id="front" margin="0" mouseChildren="true" nativeTransform="true" targetParent="false" visible="true" width="500" x="2" y="60">
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/mansion-1.png" width="500"/>
+            </Container>
+        </Album>
+        <TouchContainer2 affineTransform="true" id="descriptions" nativeTransform="false" targetParent="false">
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">George Washington took a lifetime lease on Mount Vernon in 1754 from the widow of his elder half-brother, Lawrence. At that time, the house was a much smaller dwelling—large for the time, but small in comparison to the Mansion it would become.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+        </TouchContainer2>
+        <Include src="library/cml/buttons/closeButton.cml"/>
+        <Menu affineTransform="true" alpha="0.75" autohide="true" class="menuButtons" nativeTransform="true" paddingBottom="10" paddingLeft="0" paddingRight="10" position="bottomRight" visible="false" x="0" y="-80">
+            <Button class="left_button" dispatch="down:info" down="info-down" hit="info-hit" id="left-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="-380">
+                    <Image src="library/assets/ui/mf-arrow-left.png"/>
+                </Container>
+            </Button>
+            <Button class="right_button" dispatch="down:info" down="info-down" hit="info-hit" id="right-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="0">
+                    <Image src="library/assets/ui/mf-arrow-right.png"/>
+                </Container>
+            </Button>
+        </Menu>
+        <GestureList>
+            <Gesture gestureOn="true" ref="n-rotate"/>
+            <Gesture gestureOn="true" ref="n-scale"/>
+        </GestureList>
+    </AlbumViewer2>
+    <AlbumViewer2 affineTransform="true" autoTextLayout="false" class="viewers" clusterBubbling="true" front="#front" gestureReleaseInertia="true" id="Outbuildings-PopUp" mouseChildren="true" nativeTransform="true" visible="false">
+        <TouchContainer2 affineTransform="true" id="titleTouch" mouseChildren="true" nativeTransform="false" targetParent="false">
+            <Image src="library/assets/ui/mf-bg.png"/>
+            <Image src="library/assets/ui/mf-trim-bottom.png" x="2" y="410"/>
+            <Image height="350" src="library/assets/ui/gradient.png" width="500" x="2" y="60"/>
+            <Text color="0x000000" font="BaskervilleBold" fontSize="24" id="titleAlbum" text="Outbuildings" width="500" x="10" y="10"/>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <Image src="library/assets/ui/mf-trim-top.png" x="2" y="54"/>
+        </TouchContainer2>
+        <Album affineTransform="true"  applyMask="true" centerContent="false" dragGesture="album-drag" gestureReleaseInertia="true" height="350" horizontal="true" id="front" margin="0" mouseChildren="true" nativeTransform="true" targetParent="false" visible="true" width="500" x="2" y="60">
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/outbuildings-1-1.png" width="500"/>
+            </Container>
+        </Album>
+        <TouchContainer2 affineTransform="true" id="descriptions" nativeTransform="false" targetParent="false">
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">The kitchen, dairy, and other outbuildings were arranged in a symmetrical pattern that radiated out from the house, emphasizing architectural massing and providing a genteel feeling to the estate. These outbuildings provided the services needed by the Washington family, and little effort was made to mask the messy processes that each contained.  Archaeologists uncovered the original foundations of the south side of the Mansion-the kitchen and dairy-in the summer of 2013.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+        </TouchContainer2>
+        <Include src="library/cml/buttons/closeButton.cml"/>
+        <Menu affineTransform="true" alpha="0.75" autohide="true" class="menuButtons" nativeTransform="true" paddingBottom="10" paddingLeft="0" paddingRight="10" position="bottomRight" visible="false" x="0" y="-80">
+            <Button class="left_button" dispatch="down:info" down="info-down" hit="info-hit" id="left-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="-380">
+                    <Image src="library/assets/ui/mf-arrow-left.png"/>
+                </Container>
+            </Button>
+            <Button class="right_button" dispatch="down:info" down="info-down" hit="info-hit" id="right-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="0">
+                    <Image src="library/assets/ui/mf-arrow-right.png"/>
+                </Container>
+            </Button>
+        </Menu>
+        <GestureList>
+            <Gesture gestureOn="true" ref="n-rotate"/>
+            <Gesture gestureOn="true" ref="n-scale"/>
+        </GestureList>
+    </AlbumViewer2>
+    <AlbumViewer2 affineTransform="true" autoTextLayout="false" class="viewers" clusterBubbling="true" front="#front" gestureReleaseInertia="true" id="HouseforFamilies-PopUp" mouseChildren="true" nativeTransform="true" visible="false">
+        <TouchContainer2 affineTransform="true" id="titleTouch" mouseChildren="true" nativeTransform="false" targetParent="false">
+            <Image src="library/assets/ui/mf-bg.png"/>
+            <Image src="library/assets/ui/mf-trim-bottom.png" x="2" y="410"/>
+            <Image height="350" src="library/assets/ui/gradient.png" width="500" x="2" y="60"/>
+            <Text color="0x000000" font="BaskervilleBold" fontSize="24" id="titleAlbum" text="House for Families" width="500" x="10" y="10"/>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <Image src="library/assets/ui/mf-trim-top.png" x="2" y="54"/>
+        </TouchContainer2>
+        <Album affineTransform="true"  applyMask="true" centerContent="false" dragGesture="album-drag" gestureReleaseInertia="true" height="350" horizontal="true" id="front" margin="0" mouseChildren="true" nativeTransform="true" targetParent="false" visible="true" width="500" x="2" y="60">
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/house-for-families-1.png" width="500"/>
+            </Container>
+        </Album>
+        <TouchContainer2 affineTransform="true" id="descriptions" nativeTransform="false" targetParent="false">
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">It is possible that Lawrence Washington built this large frame building, which served as the main housing for most of the 67 enslaved persons on the home farm in 1786.  This painting provides the only visual evidence for the appearance of the almost 4,000 square foot building, which was demolished in the winter of 1793.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+        </TouchContainer2>
+        <Include src="library/cml/buttons/closeButton.cml"/>
+        <Menu affineTransform="true" alpha="0.75" autohide="true" class="menuButtons" nativeTransform="true" paddingBottom="10" paddingLeft="0" paddingRight="10" position="bottomRight" visible="false" x="0" y="-80">
+            <Button class="left_button" dispatch="down:info" down="info-down" hit="info-hit" id="left-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="-380">
+                    <Image src="library/assets/ui/mf-arrow-left.png"/>
+                </Container>
+            </Button>
+            <Button class="right_button" dispatch="down:info" down="info-down" hit="info-hit" id="right-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="0">
+                    <Image src="library/assets/ui/mf-arrow-right.png"/>
+                </Container>
+            </Button>
+        </Menu>
+        <GestureList>
+            <Gesture gestureOn="true" ref="n-rotate"/>
+            <Gesture gestureOn="true" ref="n-scale"/>
+        </GestureList>
+    </AlbumViewer2>
+    <AlbumViewer2 affineTransform="true" autoTextLayout="false" class="viewers" clusterBubbling="true" front="#front" gestureReleaseInertia="true" id="LawrenceWashington-PopUp" mouseChildren="true" nativeTransform="true" visible="false">
+        <TouchContainer2 affineTransform="true" id="titleTouch" mouseChildren="true" nativeTransform="false" targetParent="false">
+            <Image src="library/assets/ui/mf-bg.png"/>
+            <Image src="library/assets/ui/mf-trim-bottom.png" x="2" y="410"/>
+            <Image height="350" src="library/assets/ui/gradient.png" width="500" x="2" y="60"/>
+            <Text color="0x000000" font="BaskervilleBold" fontSize="24" id="titleAlbum" text="Lawrence Washington" width="500" x="10" y="10"/>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <Image src="library/assets/ui/mf-trim-top.png" x="2" y="54"/>
+        </TouchContainer2>
+        <Album affineTransform="true"  applyMask="true" centerContent="false" dragGesture="album-drag" gestureReleaseInertia="true" height="350" horizontal="true" id="front" margin="0" mouseChildren="true" nativeTransform="true" targetParent="false" visible="true" width="500" x="2" y="60">
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/lawrence-washington-1.png" width="500"/>
+            </Container>
+        </Album>
+        <TouchContainer2 affineTransform="true" id="descriptions" nativeTransform="false" targetParent="false">
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">George Washington’s elder half-brother, Lawrence, inherited the 2,000 acre Little Hunting Creek property from his father, Augustine, in 1743.  He named the estate after British Admiral Edward Vernon, after fighting under the naval hero in the War of Jenkins’ Ear.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+        </TouchContainer2>
+        <Include src="library/cml/buttons/closeButton.cml"/>
+        <Menu affineTransform="true" alpha="0.75" autohide="true" class="menuButtons" nativeTransform="true" paddingBottom="10" paddingLeft="0" paddingRight="10" position="bottomRight" visible="false" x="0" y="-80">
+            <Button class="left_button" dispatch="down:info" down="info-down" hit="info-hit" id="left-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="-380">
+                    <Image src="library/assets/ui/mf-arrow-left.png"/>
+                </Container>
+            </Button>
+            <Button class="right_button" dispatch="down:info" down="info-down" hit="info-hit" id="right-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="0">
+                    <Image src="library/assets/ui/mf-arrow-right.png"/>
+                </Container>
+            </Button>
+        </Menu>
+        <GestureList>
+            <Gesture gestureOn="true" ref="n-rotate"/>
+            <Gesture gestureOn="true" ref="n-scale"/>
+        </GestureList>
+    </AlbumViewer2>
+    <AlbumViewer2 affineTransform="true" autoTextLayout="false" class="viewers" clusterBubbling="true" front="#front" gestureReleaseInertia="true" id="Approach1-PopUp" mouseChildren="true" nativeTransform="true" visible="false">
+        <TouchContainer2 affineTransform="true" id="titleTouch" mouseChildren="true" nativeTransform="false" targetParent="false">
+            <Image src="library/assets/ui/mf-bg-sm.png"/>
+            <Text color="0x000000" font="BaskervilleBold" fontSize="24" id="titleAlbum" text="Approach" width="500" x="10" y="10"/>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <Image src="library/assets/ui/mf-trim-top.png" x="2" y="54"/>
+        </TouchContainer2>
+        <Album affineTransform="true"  applyMask="true" centerContent="false" dragGesture="album-drag" gestureReleaseInertia="true" height="350" horizontal="true" id="front" margin="0" mouseChildren="true" nativeTransform="true" targetParent="false" visible="true" width="500" x="2" y="60">
+            <Container height="0" mouseChildren="true" width="0"/>
+        </Album>
+        <TouchContainer2 affineTransform="true" id="descriptions" nativeTransform="false" targetParent="false">
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="75">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">When George Washington first took a lifetime lease on Mount Vernon, guests approached the Mansion by a drive on axis with the west door.  Later, Washington added a carriage circle, which allowed horse drawn vehicles to turn around more easily.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+        </TouchContainer2>
+        <Include src="library/cml/buttons/closeButton.cml"/>
+        <Menu affineTransform="true" alpha="0.75" autohide="true" class="menuButtons" nativeTransform="true" paddingBottom="10" paddingLeft="0" paddingRight="10" position="bottomRight" visible="false" x="0" y="-80">
+            <Button class="left_button" dispatch="down:info" down="info-down" hit="info-hit" id="left-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="-380">
+                    <Image src="library/assets/ui/mf-arrow-left.png"/>
+                </Container>
+            </Button>
+            <Button class="right_button" dispatch="down:info" down="info-down" hit="info-hit" id="right-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="0">
+                    <Image src="library/assets/ui/mf-arrow-right.png"/>
+                </Container>
+            </Button>
+        </Menu>
+        <GestureList>
+            <Gesture gestureOn="true" ref="n-rotate"/>
+            <Gesture gestureOn="true" ref="n-scale"/>
+        </GestureList>
+    </AlbumViewer2>
+    <AlbumViewer2 affineTransform="true" autoTextLayout="false" class="viewers" clusterBubbling="true" front="#front" gestureReleaseInertia="true" id="NorthLane-PopUp" mouseChildren="true" nativeTransform="true" visible="false">
+        <TouchContainer2 affineTransform="true" id="titleTouch" mouseChildren="true" nativeTransform="false" targetParent="false">
+            <Image src="library/assets/ui/mf-bg-sm.png"/>
+            <Text color="0x000000" font="BaskervilleBold" fontSize="24" id="titleAlbum" text="North Lane" width="500" x="10" y="10"/>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <Image src="library/assets/ui/mf-trim-top.png" x="2" y="54"/>
+        </TouchContainer2>
+        <Album affineTransform="true"  applyMask="true" centerContent="false" dragGesture="album-drag" gestureReleaseInertia="true" height="350" horizontal="true" id="front" margin="0" mouseChildren="true" nativeTransform="true" targetParent="false" visible="true" width="500" x="2" y="60">
+            <Container height="0" mouseChildren="true" width="0"/>
+        </Album>
+        <TouchContainer2 affineTransform="true" id="descriptions" nativeTransform="false" targetParent="false">
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="75">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">The north lane provided an alternative to the formal entrance to the estate.  It served as the primary access point for the enslaved population and Washington eventually built outbuildings flanking the roadway.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+        </TouchContainer2>
+        <Include src="library/cml/buttons/closeButton.cml"/>
+        <Menu affineTransform="true" alpha="0.75" autohide="true" class="menuButtons" nativeTransform="true" paddingBottom="10" paddingLeft="0" paddingRight="10" position="bottomRight" visible="false" x="0" y="-80">
+            <Button class="left_button" dispatch="down:info" down="info-down" hit="info-hit" id="left-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="-380">
+                    <Image src="library/assets/ui/mf-arrow-left.png"/>
+                </Container>
+            </Button>
+            <Button class="right_button" dispatch="down:info" down="info-down" hit="info-hit" id="right-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="0">
+                    <Image src="library/assets/ui/mf-arrow-right.png"/>
+                </Container>
+            </Button>
+        </Menu>
+        <GestureList>
+            <Gesture gestureOn="true" ref="n-rotate"/>
+            <Gesture gestureOn="true" ref="n-scale"/>
+        </GestureList>
+    </AlbumViewer2>
+    <AlbumViewer2 affineTransform="true" autoTextLayout="false" class="viewers" clusterBubbling="true" front="#front" gestureReleaseInertia="true" id="Mansion2-PopUp" mouseChildren="true" nativeTransform="true" visible="false">
+        <TouchContainer2 affineTransform="true" id="titleTouch" mouseChildren="true" nativeTransform="false" targetParent="false">
+            <Image src="library/assets/ui/mf-bg.png"/>
+            <Image src="library/assets/ui/mf-trim-bottom.png" x="2" y="410"/>
+            <Image height="350" src="library/assets/ui/gradient.png" width="500" x="2" y="60"/>
+            <Text color="0x000000" font="BaskervilleBold" fontSize="24" id="titleAlbum" text="Mansion" width="500" x="10" y="10"/>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <Image src="library/assets/ui/mf-trim-top.png" x="2" y="54"/>
+        </TouchContainer2>
+        <Album affineTransform="true"  applyMask="true" centerContent="false" dragGesture="album-drag" gestureReleaseInertia="true" height="350" horizontal="true" id="front" margin="0" mouseChildren="true" nativeTransform="true" targetParent="false" visible="true" width="500" x="2" y="60">
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/mansion-2.png" width="500"/>
+            </Container>
+        </Album>
+        <TouchContainer2 affineTransform="true" id="descriptions" nativeTransform="false" targetParent="false">
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">In the spring of 1757, Washington began expanding the house by adding a full second story and garret, as he prepared to find a wife, settle down, and start a family. Shortly before the completion of this expansion, Washington married the wealthy widow, Martha Dandridge Custis on January 6, 1759.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+        </TouchContainer2>
+        <Include src="library/cml/buttons/closeButton.cml"/>
+        <Menu affineTransform="true" alpha="0.75" autohide="true" class="menuButtons" nativeTransform="true" paddingBottom="10" paddingLeft="0" paddingRight="10" position="bottomRight" visible="false" x="0" y="-80">
+            <Button class="left_button" dispatch="down:info" down="info-down" hit="info-hit" id="left-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="-380">
+                    <Image src="library/assets/ui/mf-arrow-left.png"/>
+                </Container>
+            </Button>
+            <Button class="right_button" dispatch="down:info" down="info-down" hit="info-hit" id="right-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="0">
+                    <Image src="library/assets/ui/mf-arrow-right.png"/>
+                </Container>
+            </Button>
+        </Menu>
+        <GestureList>
+            <Gesture gestureOn="true" ref="n-rotate"/>
+            <Gesture gestureOn="true" ref="n-scale"/>
+        </GestureList>
+    </AlbumViewer2>
+    <AlbumViewer2 affineTransform="true" autoTextLayout="false" class="viewers" clusterBubbling="true" front="#front" gestureReleaseInertia="true" id="Outbuildings2-PopUp" mouseChildren="true" nativeTransform="true" visible="false">
+        <TouchContainer2 affineTransform="true" id="titleTouch" mouseChildren="true" nativeTransform="false" targetParent="false">
+            <Image src="library/assets/ui/mf-bg.png"/>
+            <Image src="library/assets/ui/mf-trim-bottom.png" x="2" y="410"/>
+            <Image height="350" src="library/assets/ui/gradient.png" width="500" x="2" y="60"/>
+            <Text color="0x000000" font="BaskervilleBold" fontSize="24" id="titleAlbum" text="Outbuildings " width="500" x="10" y="10"/>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <Image src="library/assets/ui/mf-trim-top.png" x="2" y="54"/>
+        </TouchContainer2>
+        <Album affineTransform="true"  applyMask="true" centerContent="false" dragGesture="album-drag" gestureReleaseInertia="true" height="350" horizontal="true" id="front" margin="0" mouseChildren="true" nativeTransform="true" targetParent="false" visible="true" width="500" x="2" y="60">
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/outbuildings-2-1.png" width="500"/>
+            </Container>
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/outbuildings-2-2.png" width="500"/>
+            </Container>
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/outbuildings-2-3.png" width="500"/>
+            </Container>
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/outbuildings-2-4.png" width="500"/>
+            </Container>
+        </Album>
+        <TouchContainer2 affineTransform="true" id="descriptions" nativeTransform="false" targetParent="false">
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">In 1775, George Washington razed Mount Vernon’s existing outbuildings, which were in the way of his new additions to the Mansion. He replaced them with new structures situated in a neat, symmetrical arrangement along the north and south lanes. This placement allowed Washington to minimize their visibility from the house and pleasure grounds.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">In 1775, George Washington razed Mount Vernon’s existing outbuildings, which were in the way of his new additions to the Mansion. He replaced them with new structures situated in a neat, symmetrical arrangement along the north and south lanes. This placement allowed Washington to minimize their visibility from the house and pleasure grounds.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">In 1775, George Washington razed Mount Vernon’s existing outbuildings, which were in the way of his new additions to the Mansion. He replaced them with new structures situated in a neat, symmetrical arrangement along the north and south lanes. This placement allowed Washington to minimize their visibility from the house and pleasure grounds.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">In 1775, George Washington razed Mount Vernon’s existing outbuildings, which were in the way of his new additions to the Mansion. He replaced them with new structures situated in a neat, symmetrical arrangement along the north and south lanes. This placement allowed Washington to minimize their visibility from the house and pleasure grounds.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+        </TouchContainer2>
+        <Include src="library/cml/buttons/closeButton.cml"/>
+        <Menu affineTransform="true" alpha="0.75" autohide="true" class="menuButtons" nativeTransform="true" paddingBottom="10" paddingLeft="0" paddingRight="10" position="bottomRight" visible="false" x="0" y="-80">
+            <Button class="left_button" dispatch="down:info" down="info-down" hit="info-hit" id="left-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="-380">
+                    <Image src="library/assets/ui/mf-arrow-left.png"/>
+                </Container>
+            </Button>
+            <Button class="right_button" dispatch="down:info" down="info-down" hit="info-hit" id="right-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="0">
+                    <Image src="library/assets/ui/mf-arrow-right.png"/>
+                </Container>
+            </Button>
+        </Menu>
+        <GestureList>
+            <Gesture gestureOn="true" ref="n-rotate"/>
+            <Gesture gestureOn="true" ref="n-scale"/>
+        </GestureList>
+    </AlbumViewer2>
+    <AlbumViewer2 affineTransform="true" autoTextLayout="false" class="viewers" clusterBubbling="true" front="#front" gestureReleaseInertia="true" id="GeorgeandMarthaWashington-PopUp" mouseChildren="true" nativeTransform="true" visible="false">
+        <TouchContainer2 affineTransform="true" id="titleTouch" mouseChildren="true" nativeTransform="false" targetParent="false">
+            <Image src="library/assets/ui/mf-bg.png"/>
+            <Image src="library/assets/ui/mf-trim-bottom.png" x="2" y="410"/>
+            <Image height="350" src="library/assets/ui/gradient.png" width="500" x="2" y="60"/>
+            <Text color="0x000000" font="BaskervilleBold" fontSize="24" id="titleAlbum" text="George and Martha Washington" width="500" x="10" y="10"/>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <Image src="library/assets/ui/mf-trim-top.png" x="2" y="54"/>
+        </TouchContainer2>
+        <Album affineTransform="true"  applyMask="true" centerContent="false" dragGesture="album-drag" gestureReleaseInertia="true" height="350" horizontal="true" id="front" margin="0" mouseChildren="true" nativeTransform="true" targetParent="false" visible="true" width="500" x="2" y="60">
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/gw-peale-1.png" width="500"/>
+            </Container>
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/mw-wollaston.png" width="500"/>
+            </Container>
+        </Album>
+        <TouchContainer2 affineTransform="true" id="descriptions" nativeTransform="false" targetParent="false">
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">On January 6, 1759, Colonel George Washington married the wealthy widow, Martha Dandridge Custis.  Soon thereafter, the newlyweds moved into the recently renovated mansion at Mount Vernon.  George Washington raised Martha Washington’s two children, John Parke Custis and Martha Parke Custis as his own.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">On January 6, 1759, Colonel George Washington married the wealthy widow, Martha Dandridge Custis.  Soon thereafter, the newlyweds moved into the recently renovated mansion at Mount Vernon.  George Washington raised Martha Washington’s two children, John Parke Custis and Martha Parke Custis as his own.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+        </TouchContainer2>
+        <Include src="library/cml/buttons/closeButton.cml"/>
+        <Menu affineTransform="true" alpha="0.75" autohide="true" class="menuButtons" nativeTransform="true" paddingBottom="10" paddingLeft="0" paddingRight="10" position="bottomRight" visible="false" x="0" y="-80">
+            <Button class="left_button" dispatch="down:info" down="info-down" hit="info-hit" id="left-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="-380">
+                    <Image src="library/assets/ui/mf-arrow-left.png"/>
+                </Container>
+            </Button>
+            <Button class="right_button" dispatch="down:info" down="info-down" hit="info-hit" id="right-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="0">
+                    <Image src="library/assets/ui/mf-arrow-right.png"/>
+                </Container>
+            </Button>
+        </Menu>
+        <GestureList>
+            <Gesture gestureOn="true" ref="n-rotate"/>
+            <Gesture gestureOn="true" ref="n-scale"/>
+        </GestureList>
+    </AlbumViewer2>
+    <AlbumViewer2 affineTransform="true" autoTextLayout="false" class="viewers" clusterBubbling="true" front="#front" gestureReleaseInertia="true" id="WalledGardens-PopUp" mouseChildren="true" nativeTransform="true" visible="false">
+        <TouchContainer2 affineTransform="true" id="titleTouch" mouseChildren="true" nativeTransform="false" targetParent="false">
+            <Image src="library/assets/ui/mf-bg-sm.png"/>
+            <Text color="0x000000" font="BaskervilleBold" fontSize="24" id="titleAlbum" text="Walled Gardens" width="500" x="10" y="10"/>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <Image src="library/assets/ui/mf-trim-top.png" x="2" y="54"/>
+        </TouchContainer2>
+        <Album affineTransform="true"  applyMask="true" centerContent="false" dragGesture="album-drag" gestureReleaseInertia="true" height="350" horizontal="true" id="front" margin="0" mouseChildren="true" nativeTransform="true" targetParent="false" visible="true" width="500" x="2" y="60">
+            <Container height="0" mouseChildren="true" width="0"/>
+        </Album>
+        <TouchContainer2 affineTransform="true" id="descriptions" nativeTransform="false" targetParent="false">
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="75">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">Washington completed bricking the wall of the upper garden to mirror the wall surrounding the lower garden just before the outbreak of the American Revolution.  This large plot served as a fruit and nut garden for the estate. He also added a privy to the east wall of each garden and a seed house to the west wall.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+        </TouchContainer2>
+        <Include src="library/cml/buttons/closeButton.cml"/>
+        <Menu affineTransform="true" alpha="0.75" autohide="true" class="menuButtons" nativeTransform="true" paddingBottom="10" paddingLeft="0" paddingRight="10" position="bottomRight" visible="false" x="0" y="-80">
+            <Button class="left_button" dispatch="down:info" down="info-down" hit="info-hit" id="left-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="-380">
+                    <Image src="library/assets/ui/mf-arrow-left.png"/>
+                </Container>
+            </Button>
+            <Button class="right_button" dispatch="down:info" down="info-down" hit="info-hit" id="right-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="0">
+                    <Image src="library/assets/ui/mf-arrow-right.png"/>
+                </Container>
+            </Button>
+        </Menu>
+        <GestureList>
+            <Gesture gestureOn="true" ref="n-rotate"/>
+            <Gesture gestureOn="true" ref="n-scale"/>
+        </GestureList>
+    </AlbumViewer2>
+    <AlbumViewer2 affineTransform="true" autoTextLayout="false" class="viewers" clusterBubbling="true" front="#front" gestureReleaseInertia="true" id="Mansion3-PopUp" mouseChildren="true" nativeTransform="true" visible="false">
+        <TouchContainer2 affineTransform="true" id="titleTouch" mouseChildren="true" nativeTransform="false" targetParent="false">
+            <Image src="library/assets/ui/mf-bg.png"/>
+            <Image src="library/assets/ui/mf-trim-bottom.png" x="2" y="410"/>
+            <Image height="350" src="library/assets/ui/gradient.png" width="500" x="2" y="60"/>
+            <Text color="0x000000" font="BaskervilleBold" fontSize="24" id="titleAlbum" text="Mansion " width="500" x="10" y="10"/>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <Image src="library/assets/ui/mf-trim-top.png" x="2" y="54"/>
+        </TouchContainer2>
+        <Album affineTransform="true"  applyMask="true" centerContent="false" dragGesture="album-drag" gestureReleaseInertia="true" height="350" horizontal="true" id="front" margin="0" mouseChildren="true" nativeTransform="true" targetParent="false" visible="true" width="500" x="2" y="60">
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/mansion-3.png" width="500"/>
+            </Container>
+        </Album>
+        <TouchContainer2 affineTransform="true" id="descriptions" nativeTransform="false" targetParent="false">
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">In 1772, George Washington began work on his last major renovation of the Mansion.  To the south, he added a private wing with a bedchamber for himself and Martha on the second floor and a study for his own use on the first floor.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+        </TouchContainer2>
+        <Include src="library/cml/buttons/closeButton.cml"/>
+        <Menu affineTransform="true" alpha="0.75" autohide="true" class="menuButtons" nativeTransform="true" paddingBottom="10" paddingLeft="0" paddingRight="10" position="bottomRight" visible="false" x="0" y="-80">
+            <Button class="left_button" dispatch="down:info" down="info-down" hit="info-hit" id="left-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="-380">
+                    <Image src="library/assets/ui/mf-arrow-left.png"/>
+                </Container>
+            </Button>
+            <Button class="right_button" dispatch="down:info" down="info-down" hit="info-hit" id="right-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="0">
+                    <Image src="library/assets/ui/mf-arrow-right.png"/>
+                </Container>
+            </Button>
+        </Menu>
+        <GestureList>
+            <Gesture gestureOn="true" ref="n-rotate"/>
+            <Gesture gestureOn="true" ref="n-scale"/>
+        </GestureList>
+    </AlbumViewer2>
+    <AlbumViewer2 affineTransform="true" autoTextLayout="false" class="viewers" clusterBubbling="true" front="#front" gestureReleaseInertia="true" id="Approach3-PopUp" mouseChildren="true" nativeTransform="true" visible="false">
+        <TouchContainer2 affineTransform="true" id="titleTouch" mouseChildren="true" nativeTransform="false" targetParent="false">
+            <Image src="library/assets/ui/mf-bg.png"/>
+            <Image src="library/assets/ui/mf-trim-bottom.png" x="2" y="410"/>
+            <Image height="350" src="library/assets/ui/gradient.png" width="500" x="2" y="60"/>
+            <Text color="0x000000" font="BaskervilleBold" fontSize="24" id="titleAlbum" text="Approach" width="500" x="10" y="10"/>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <Image src="library/assets/ui/mf-trim-top.png" x="2" y="54"/>
+        </TouchContainer2>
+        <Album affineTransform="true"  applyMask="true" centerContent="false" dragGesture="album-drag" gestureReleaseInertia="true" height="350" horizontal="true" id="front" margin="0" mouseChildren="true" nativeTransform="true" targetParent="false" visible="true" width="500" x="2" y="60">
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/approach-1.png" width="500"/>
+            </Container>
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/approach-2.png" width="500"/>
+            </Container>
+        </Album>
+        <TouchContainer2 affineTransform="true" id="descriptions" nativeTransform="false" targetParent="false">
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">While Mount Vernon’s prime location on the Potomac River allowed people to arrive by boat, the vast majority of Washington’s guests traveled over land and entered the estate through what is now commonly called the west gate. There, as visitors turned in between the white gates, they caught their first sight of the house, framed by trees that Washington had carefully cleared to create a picturesque view.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">While Mount Vernon’s prime location on the Potomac River allowed people to arrive by boat, the vast majority of the Washington’s guests traveled over land and entered the estate through what is now commonly called the west gate. There, as visitors turned in between the white gates, they caught their first sight of the house, framed by trees that Washington had carefully cleared to create a picturesque view.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+        </TouchContainer2>
+        <Include src="library/cml/buttons/closeButton.cml"/>
+        <Menu affineTransform="true" alpha="0.75" autohide="true" class="menuButtons" nativeTransform="true" paddingBottom="10" paddingLeft="0" paddingRight="10" position="bottomRight" visible="false" x="0" y="-80">
+            <Button class="left_button" dispatch="down:info" down="info-down" hit="info-hit" id="left-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="-380">
+                    <Image src="library/assets/ui/mf-arrow-left.png"/>
+                </Container>
+            </Button>
+            <Button class="right_button" dispatch="down:info" down="info-down" hit="info-hit" id="right-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="0">
+                    <Image src="library/assets/ui/mf-arrow-right.png"/>
+                </Container>
+            </Button>
+        </Menu>
+        <GestureList>
+            <Gesture gestureOn="true" ref="n-rotate"/>
+            <Gesture gestureOn="true" ref="n-scale"/>
+        </GestureList>
+    </AlbumViewer2>
+    <AlbumViewer2 affineTransform="true" autoTextLayout="false" class="viewers" clusterBubbling="true" front="#front" gestureReleaseInertia="true" id="PotomacRiver-PopUp" mouseChildren="true" nativeTransform="true" visible="false">
+        <TouchContainer2 affineTransform="true" id="titleTouch" mouseChildren="true" nativeTransform="false" targetParent="false">
+            <Image src="library/assets/ui/mf-bg.png"/>
+            <Image src="library/assets/ui/mf-trim-bottom.png" x="2" y="410"/>
+            <Image height="350" src="library/assets/ui/gradient.png" width="500" x="2" y="60"/>
+            <Text color="0x000000" font="BaskervilleBold" fontSize="24" id="titleAlbum" text="Potomac River" width="500" x="10" y="10"/>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <Image src="library/assets/ui/mf-trim-top.png" x="2" y="54"/>
+        </TouchContainer2>
+        <Album affineTransform="true"  applyMask="true" centerContent="false" dragGesture="album-drag" gestureReleaseInertia="true" height="350" horizontal="true" id="front" margin="0" mouseChildren="true" nativeTransform="true" targetParent="false" visible="true" width="500" x="2" y="60">
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/potomac-4.png" width="500"/>
+            </Container>
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/potomac-1.png" width="500"/>
+            </Container>
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/potomac-2.png" width="500"/>
+            </Container>
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/potomac-3.png" width="500"/>
+            </Container>
+        </Album>
+        <TouchContainer2 affineTransform="true" id="descriptions" nativeTransform="false" targetParent="false">
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">Mount Vernon’s position at the crest of a hill overlooking the Potomac River provided exceptional aesthetic potential for a house site.  George Washington took advantage of this natural beauty by clearing the viewshed of brush and tall trees.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">Mount Vernon’s position at the crest of a hill overlooking the Potomac River provided exceptional aesthetic potential for a house site.  George Washington took advantage of this natural beauty by clearing the viewshed of brush and tall trees.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">Mount Vernon’s position at the crest of a hill overlooking the Potomac River provided exceptional aesthetic potential for a house site.  George Washington took advantage of this natural beauty by clearing the viewshed of brush and tall trees.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">Mount Vernon’s position at the crest of a hill overlooking the Potomac River provided exceptional aesthetic potential for a house site.  George Washington took advantage of this natural beauty by clearing the viewshed of brush and tall trees.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+        </TouchContainer2>
+        <Include src="library/cml/buttons/closeButton.cml"/>
+        <Menu affineTransform="true" alpha="0.75" autohide="true" class="menuButtons" nativeTransform="true" paddingBottom="10" paddingLeft="0" paddingRight="10" position="bottomRight" visible="false" x="0" y="-80">
+            <Button class="left_button" dispatch="down:info" down="info-down" hit="info-hit" id="left-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="-380">
+                    <Image src="library/assets/ui/mf-arrow-left.png"/>
+                </Container>
+            </Button>
+            <Button class="right_button" dispatch="down:info" down="info-down" hit="info-hit" id="right-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="0">
+                    <Image src="library/assets/ui/mf-arrow-right.png"/>
+                </Container>
+            </Button>
+        </Menu>
+        <GestureList>
+            <Gesture gestureOn="true" ref="n-rotate"/>
+            <Gesture gestureOn="true" ref="n-scale"/>
+        </GestureList>
+    </AlbumViewer2>
+    <AlbumViewer2 affineTransform="true" autoTextLayout="false" class="viewers" clusterBubbling="true" front="#front" gestureReleaseInertia="true" id="Gardens-PopUp" mouseChildren="true" nativeTransform="true" visible="false">
+        <TouchContainer2 affineTransform="true" id="titleTouch" mouseChildren="true" nativeTransform="false" targetParent="false">
+            <Image src="library/assets/ui/mf-bg.png"/>
+            <Image src="library/assets/ui/mf-trim-bottom.png" x="2" y="410"/>
+            <Image height="350" src="library/assets/ui/gradient.png" width="500" x="2" y="60"/>
+            <Text color="0x000000" font="BaskervilleBold" fontSize="24" id="titleAlbum" text="Gardens" width="500" x="10" y="10"/>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <Image src="library/assets/ui/mf-trim-top.png" x="2" y="54"/>
+        </TouchContainer2>
+        <Album affineTransform="true"  applyMask="true" centerContent="false" dragGesture="album-drag" gestureReleaseInertia="true" height="350" horizontal="true" id="front" margin="0" mouseChildren="true" nativeTransform="true" targetParent="false" visible="true" width="500" x="2" y="60">
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/garden-upper-1.png" width="500"/>
+            </Container>
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/garden-upper-2.png" width="500"/>
+            </Container>
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/garden-lower-1.png" width="500"/>
+            </Container>
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/garden-lower-2.png" width="500"/>
+            </Container>
+        </Album>
+        <TouchContainer2 affineTransform="true" id="descriptions" nativeTransform="false" targetParent="false">
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">Washington replaced the rectangular garden plots with bullet-shaped gardens on either side of the bowling green, thus accommodating the flaring curves at its widest point.  The north garden served as a pleasure garden for his guests, while the lower garden served as the kitchen garden.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">Washington replaced the rectangular garden plots with bullet-shaped gardens on either side of the bowling green, thus accommodating the flaring curves at its widest point.  The north garden served as a pleasure garden for his guests, while the lower garden served as the kitchen garden.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">Washington replaced the rectangular garden plots with bullet-shaped gardens on either side of the bowling green, thus accommodating the flaring curves at its widest point.  The north garden served as a pleasure garden for his guests, while the lower garden served as the kitchen garden.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">Washington replaced the rectangular garden plots with bullet-shaped gardens on either side of the bowling green, thus accommodating the flaring curves at its widest point.  The north garden served as a pleasure garden for his guests, while the lower garden served as the kitchen garden.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+        </TouchContainer2>
+        <Include src="library/cml/buttons/closeButton.cml"/>
+        <Menu affineTransform="true" alpha="0.75" autohide="true" class="menuButtons" nativeTransform="true" paddingBottom="10" paddingLeft="0" paddingRight="10" position="bottomRight" visible="false" x="0" y="-80">
+            <Button class="left_button" dispatch="down:info" down="info-down" hit="info-hit" id="left-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="-380">
+                    <Image src="library/assets/ui/mf-arrow-left.png"/>
+                </Container>
+            </Button>
+            <Button class="right_button" dispatch="down:info" down="info-down" hit="info-hit" id="right-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="0">
+                    <Image src="library/assets/ui/mf-arrow-right.png"/>
+                </Container>
+            </Button>
+        </Menu>
+        <GestureList>
+            <Gesture gestureOn="true" ref="n-rotate"/>
+            <Gesture gestureOn="true" ref="n-scale"/>
+        </GestureList>
+    </AlbumViewer2>
+    <AlbumViewer2 affineTransform="true" autoTextLayout="false" class="viewers" clusterBubbling="true" front="#front" gestureReleaseInertia="true" id="Greenhouse-PopUp" mouseChildren="true" nativeTransform="true" visible="false">
+        <TouchContainer2 affineTransform="true" id="titleTouch" mouseChildren="true" nativeTransform="false" targetParent="false">
+            <Image src="library/assets/ui/mf-bg.png"/>
+            <Image src="library/assets/ui/mf-trim-bottom.png" x="2" y="410"/>
+            <Image height="350" src="library/assets/ui/gradient.png" width="500" x="2" y="60"/>
+            <Text color="0x000000" font="BaskervilleBold" fontSize="24" id="titleAlbum" text="Greenhouse" width="500" x="10" y="10"/>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <Image src="library/assets/ui/mf-trim-top.png" x="2" y="54"/>
+        </TouchContainer2>
+        <Album affineTransform="true"  applyMask="true" centerContent="false" dragGesture="album-drag" gestureReleaseInertia="true" height="350" horizontal="true" id="front" margin="0" mouseChildren="true" nativeTransform="true" targetParent="false" visible="true" width="500" x="2" y="60">
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/greenhouse-1.png" width="500"/>
+            </Container>
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/greenhouse-2.png" width="500"/>
+            </Container>
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/greenhouse-3.png" width="500"/>
+            </Container>
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/greenhouse-4.png" width="500"/>
+            </Container>
+        </Album>
+        <TouchContainer2 affineTransform="true" id="descriptions" nativeTransform="false" targetParent="false">
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">As the focal point of his upper garden, Washington built a commanding brick greenhouse to cultivate lemons, limes, oranges, and other exotic plants.  To protect the plants from cold, enslaved workers kept fires alive in a subterranean heating system throughout the winter.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">As the focal point of his upper garden, Washington built a commanding brick greenhouse to cultivate lemons, limes, oranges, and other exotic plants.  To protect the plants from cold, enslaved workers kept fires alive in a subterranean heating system throughout the winter.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">As the focal point of his upper garden, Washington built a commanding brick greenhouse to cultivate lemons, limes, oranges, and other exotic plants.  To protect the plants from cold, enslaved workers kept fires alive in a subterranean heating system throughout the winter.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">As the focal point of his upper garden, Washington built a commanding brick greenhouse to cultivate lemons, limes, oranges, and other exotic plants.  To protect the plants from cold, enslaved workers kept fires alive in a subterranean heating system throughout the winter.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+        </TouchContainer2>
+        <Include src="library/cml/buttons/closeButton.cml"/>
+        <Menu affineTransform="true" alpha="0.75" autohide="true" class="menuButtons" nativeTransform="true" paddingBottom="10" paddingLeft="0" paddingRight="10" position="bottomRight" visible="false" x="0" y="-80">
+            <Button class="left_button" dispatch="down:info" down="info-down" hit="info-hit" id="left-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="-380">
+                    <Image src="library/assets/ui/mf-arrow-left.png"/>
+                </Container>
+            </Button>
+            <Button class="right_button" dispatch="down:info" down="info-down" hit="info-hit" id="right-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="0">
+                    <Image src="library/assets/ui/mf-arrow-right.png"/>
+                </Container>
+            </Button>
+        </Menu>
+        <GestureList>
+            <Gesture gestureOn="true" ref="n-rotate"/>
+            <Gesture gestureOn="true" ref="n-scale"/>
+        </GestureList>
+    </AlbumViewer2>
+    <AlbumViewer2 affineTransform="true" autoTextLayout="false" class="viewers" clusterBubbling="true" front="#front" gestureReleaseInertia="true" id="Greenhouseslavequarter-PopUp" mouseChildren="true" nativeTransform="true" visible="false">
+        <TouchContainer2 affineTransform="true" id="titleTouch" mouseChildren="true" nativeTransform="false" targetParent="false">
+            <Image src="library/assets/ui/mf-bg.png"/>
+            <Image src="library/assets/ui/mf-trim-bottom.png" x="2" y="410"/>
+            <Image height="350" src="library/assets/ui/gradient.png" width="500" x="2" y="60"/>
+            <Text color="0x000000" font="BaskervilleBold" fontSize="24" id="titleAlbum" text="Greenhouse slave quarter" width="500" x="10" y="10"/>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <Image src="library/assets/ui/mf-trim-top.png" x="2" y="54"/>
+        </TouchContainer2>
+        <Album affineTransform="true"  applyMask="true" centerContent="false" dragGesture="album-drag" gestureReleaseInertia="true" height="350" horizontal="true" id="front" margin="0" mouseChildren="true" nativeTransform="true" targetParent="false" visible="true" width="500" x="2" y="60">
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/ghsq-1.png" width="500"/>
+            </Container>
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/ghsq-2.png" width="500"/>
+            </Container>
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/ghsq-3.png" width="500"/>
+            </Container>
+        </Album>
+        <TouchContainer2 affineTransform="true" id="descriptions" nativeTransform="false" targetParent="false">
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">In 1792, Washington added a pair of wings to the greenhouse with two large rooms in each.  The rooms contained bunks and provided the majority of housing for the 87 enslaved persons on the Home Farm.  When the new quarters were complete, Washington demolished the house for families.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">In 1792, Washington added a pair wings to the greenhouse with two large rooms in each.  The rooms contained bunks and provided the majority of housing for the 87 enslaved persons on the Home Farm.  When the new quarters were complete, Washington demolished the house for families.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">In 1792, Washington added a pair wings to the greenhouse with two large rooms in each.  The rooms contained bunks and provided the majority of housing for the 87 enslaved persons on the Home Farm.  When the new quarters were complete, Washington demolished the house for families.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+        </TouchContainer2>
+        <Include src="library/cml/buttons/closeButton.cml"/>
+        <Menu affineTransform="true" alpha="0.75" autohide="true" class="menuButtons" nativeTransform="true" paddingBottom="10" paddingLeft="0" paddingRight="10" position="bottomRight" visible="false" x="0" y="-80">
+            <Button class="left_button" dispatch="down:info" down="info-down" hit="info-hit" id="left-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="-380">
+                    <Image src="library/assets/ui/mf-arrow-left.png"/>
+                </Container>
+            </Button>
+            <Button class="right_button" dispatch="down:info" down="info-down" hit="info-hit" id="right-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="0">
+                    <Image src="library/assets/ui/mf-arrow-right.png"/>
+                </Container>
+            </Button>
+        </Menu>
+        <GestureList>
+            <Gesture gestureOn="true" ref="n-rotate"/>
+            <Gesture gestureOn="true" ref="n-scale"/>
+        </GestureList>
+    </AlbumViewer2>
+    <AlbumViewer2 affineTransform="true" autoTextLayout="false" class="viewers" clusterBubbling="true" front="#front" gestureReleaseInertia="true" id="Groves-PopUp" mouseChildren="true" nativeTransform="true" visible="false">
+        <TouchContainer2 affineTransform="true" id="titleTouch" mouseChildren="true" nativeTransform="false" targetParent="false">
+            <Image src="library/assets/ui/mf-bg.png"/>
+            <Image src="library/assets/ui/mf-trim-bottom.png" x="2" y="410"/>
+            <Image height="350" src="library/assets/ui/gradient.png" width="500" x="2" y="60"/>
+            <Text color="0x000000" font="BaskervilleBold" fontSize="24" id="titleAlbum" text="Groves" width="500" x="10" y="10"/>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <Image src="library/assets/ui/mf-trim-top.png" x="2" y="54"/>
+        </TouchContainer2>
+        <Album affineTransform="true"  applyMask="true" centerContent="false" dragGesture="album-drag" gestureReleaseInertia="true" height="350" horizontal="true" id="front" margin="0" mouseChildren="true" nativeTransform="true" targetParent="false" visible="true" width="500" x="2" y="60">
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/groves-1.png" width="500"/>
+            </Container>
+        </Album>
+        <TouchContainer2 affineTransform="true" id="descriptions" nativeTransform="false" targetParent="false">
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">On either end of the Mansion, Washington planted groves of trees to block the view to the outbuildings from the house and the east lawn.  He planted black locusts to the north of the house and “all the clever kind of Trees (especially flowering ones) that can be got” to the south.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+        </TouchContainer2>
+        <Include src="library/cml/buttons/closeButton.cml"/>
+        <Menu affineTransform="true" alpha="0.75" autohide="true" class="menuButtons" nativeTransform="true" paddingBottom="10" paddingLeft="0" paddingRight="10" position="bottomRight" visible="false" x="0" y="-80">
+            <Button class="left_button" dispatch="down:info" down="info-down" hit="info-hit" id="left-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="-380">
+                    <Image src="library/assets/ui/mf-arrow-left.png"/>
+                </Container>
+            </Button>
+            <Button class="right_button" dispatch="down:info" down="info-down" hit="info-hit" id="right-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="0">
+                    <Image src="library/assets/ui/mf-arrow-right.png"/>
+                </Container>
+            </Button>
+        </Menu>
+        <GestureList>
+            <Gesture gestureOn="true" ref="n-rotate"/>
+            <Gesture gestureOn="true" ref="n-scale"/>
+        </GestureList>
+    </AlbumViewer2>
+    <AlbumViewer2 affineTransform="true" autoTextLayout="false" class="viewers" clusterBubbling="true" front="#front" gestureReleaseInertia="true" id="BotanicalGarden-PopUp" mouseChildren="true" nativeTransform="true" visible="false">
+        <TouchContainer2 affineTransform="true" id="titleTouch" mouseChildren="true" nativeTransform="false" targetParent="false">
+            <Image src="library/assets/ui/mf-bg.png"/>
+            <Image src="library/assets/ui/mf-trim-bottom.png" x="2" y="410"/>
+            <Image height="350" src="library/assets/ui/gradient.png" width="500" x="2" y="60"/>
+            <Text color="0x000000" font="BaskervilleBold" fontSize="24" id="titleAlbum" text="Botanical Garden" width="500" x="10" y="10"/>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <Image src="library/assets/ui/mf-trim-top.png" x="2" y="54"/>
+        </TouchContainer2>
+        <Album affineTransform="true"  applyMask="true" centerContent="false" dragGesture="album-drag" gestureReleaseInertia="true" height="350" horizontal="true" id="front" margin="0" mouseChildren="true" nativeTransform="true" targetParent="false" visible="true" width="500" x="2" y="60">
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/botanical-1.png" width="500"/>
+            </Container>
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/botanical-2.png" width="500"/>
+            </Container>
+        </Album>
+        <TouchContainer2 affineTransform="true" id="descriptions" nativeTransform="false" targetParent="false">
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">Between the spinning house and wall of the upper garden, George Washington fenced off a small plot of land to serve as a ‘Botanick’ or experimental garden where he could test new plants before introducing them to other parts of the estate. Washington once wrote that his intention for this little garden “was to receive such things as required but a small space for their cultivation.”</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">Between the spinning house and wall of the upper garden, George Washington fenced off a small plot of land to serve as a ‘Botanick’ or experimental garden where he could test new plants before introducing them to other parts of the estate. Washington once wrote that his intention for this little garden “was to receive such things as required but a small space for their cultivation.”</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+        </TouchContainer2>
+        <Include src="library/cml/buttons/closeButton.cml"/>
+        <Menu affineTransform="true" alpha="0.75" autohide="true" class="menuButtons" nativeTransform="true" paddingBottom="10" paddingLeft="0" paddingRight="10" position="bottomRight" visible="false" x="0" y="-80">
+            <Button class="left_button" dispatch="down:info" down="info-down" hit="info-hit" id="left-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="-380">
+                    <Image src="library/assets/ui/mf-arrow-left.png"/>
+                </Container>
+            </Button>
+            <Button class="right_button" dispatch="down:info" down="info-down" hit="info-hit" id="right-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="0">
+                    <Image src="library/assets/ui/mf-arrow-right.png"/>
+                </Container>
+            </Button>
+        </Menu>
+        <GestureList>
+            <Gesture gestureOn="true" ref="n-rotate"/>
+            <Gesture gestureOn="true" ref="n-scale"/>
+        </GestureList>
+    </AlbumViewer2>
+    <AlbumViewer2 affineTransform="true" autoTextLayout="false" class="viewers" clusterBubbling="true" front="#front" gestureReleaseInertia="true" id="BowlingGreen-PopUp" mouseChildren="true" nativeTransform="true" visible="false">
+        <TouchContainer2 affineTransform="true" id="titleTouch" mouseChildren="true" nativeTransform="false" targetParent="false">
+            <Image src="library/assets/ui/mf-bg.png"/>
+            <Image src="library/assets/ui/mf-trim-bottom.png" x="2" y="410"/>
+            <Image height="350" src="library/assets/ui/gradient.png" width="500" x="2" y="60"/>
+            <Text color="0x000000" font="BaskervilleBold" fontSize="24" id="titleAlbum" text="Bowling Green" width="500" x="10" y="10"/>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <Image src="library/assets/ui/mf-trim-top.png" x="2" y="54"/>
+        </TouchContainer2>
+        <Album affineTransform="true"  applyMask="true" centerContent="false" dragGesture="album-drag" gestureReleaseInertia="true" height="350" horizontal="true" id="front" margin="0" mouseChildren="true" nativeTransform="true" targetParent="false" visible="true" width="500" x="2" y="60">
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/bowling-1.png" width="500"/>
+            </Container>
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/bowling-2.png" width="500"/>
+            </Container>
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/bowling-3.png" width="500"/>
+            </Container>
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/bowling-4.png" width="500"/>
+            </Container>
+        </Album>
+        <TouchContainer2 affineTransform="true" id="descriptions" nativeTransform="false" targetParent="false">
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">To create the luxurious expanse of green grass that formed the bowling green, Washington first demolished portions of the two earlier brick walled gardens.  He edged the lawn with a serpentine path and planted trees and flowering shrubs on either side of the lawn.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">To create the luxurious expanse of green grass that formed the bowling green, Washington first demolished portions of the two earlier brick walled gardens.  He edged the lawn with a serpentine path and planted trees and flowering shrubs on either side of the lawn.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">To create the luxurious expanse of green grass that formed the bowling green, Washington first demolished portions of the two earlier brick walled gardens.  He edged the lawn with a serpentine path and planted trees and flowering shrubs on either side of the lawn.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">To create the luxurious expanse of green grass that formed the bowling green, Washington first demolished portions of the two earlier brick walled gardens.  He edged the lawn with a serpentine path and planted trees and flowering shrubs on either side of the lawn.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+        </TouchContainer2>
+        <Include src="library/cml/buttons/closeButton.cml"/>
+        <Menu affineTransform="true" alpha="0.75" autohide="true" class="menuButtons" nativeTransform="true" paddingBottom="10" paddingLeft="0" paddingRight="10" position="bottomRight" visible="false" x="0" y="-80">
+            <Button class="left_button" dispatch="down:info" down="info-down" hit="info-hit" id="left-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="-380">
+                    <Image src="library/assets/ui/mf-arrow-left.png"/>
+                </Container>
+            </Button>
+            <Button class="right_button" dispatch="down:info" down="info-down" hit="info-hit" id="right-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="0">
+                    <Image src="library/assets/ui/mf-arrow-right.png"/>
+                </Container>
+            </Button>
+        </Menu>
+        <GestureList>
+            <Gesture gestureOn="true" ref="n-rotate"/>
+            <Gesture gestureOn="true" ref="n-scale"/>
+        </GestureList>
+    </AlbumViewer2>
+    <AlbumViewer2 affineTransform="true" autoTextLayout="false" class="viewers" clusterBubbling="true" front="#front" gestureReleaseInertia="true" id="SlaveCabins-PopUp" mouseChildren="true" nativeTransform="true" visible="false">
+        <TouchContainer2 affineTransform="true" id="titleTouch" mouseChildren="true" nativeTransform="false" targetParent="false">
+            <Image src="library/assets/ui/mf-bg.png"/>
+            <Image src="library/assets/ui/mf-trim-bottom.png" x="2" y="410"/>
+            <Image height="350" src="library/assets/ui/gradient.png" width="500" x="2" y="60"/>
+            <Text color="0x000000" font="BaskervilleBold" fontSize="24" id="titleAlbum" text="Slave Cabins" width="500" x="10" y="10"/>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <Image src="library/assets/ui/mf-trim-top.png" x="2" y="54"/>
+        </TouchContainer2>
+        <Album affineTransform="true"  applyMask="true" centerContent="false" dragGesture="album-drag" gestureReleaseInertia="true" height="350" horizontal="true" id="front" margin="0" mouseChildren="true" nativeTransform="true" targetParent="false" visible="true" width="500" x="2" y="60">
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/slave-quarter-1.png" width="500"/>
+            </Container>
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/slave-quarter-2.png" width="500"/>
+            </Container>
+        </Album>
+        <TouchContainer2 affineTransform="true" id="descriptions" nativeTransform="false" targetParent="false">
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">Across the lane from the greenhouse, a group of log cabins filled out the housing on the Home Farm.  This lane was the hub of the enslaved community at Mount Vernon.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">Across the lane from the greenhouse, a group of log slave cabins filled out the slave housing on the Home Farm.  This lane was the nexus of the enslaved community at Mount Vernon.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+        </TouchContainer2>
+        <Include src="library/cml/buttons/closeButton.cml"/>
+        <Menu affineTransform="true" alpha="0.75" autohide="true" class="menuButtons" nativeTransform="true" paddingBottom="10" paddingLeft="0" paddingRight="10" position="bottomRight" visible="false" x="0" y="-80">
+            <Button class="left_button" dispatch="down:info" down="info-down" hit="info-hit" id="left-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="-380">
+                    <Image src="library/assets/ui/mf-arrow-left.png"/>
+                </Container>
+            </Button>
+            <Button class="right_button" dispatch="down:info" down="info-down" hit="info-hit" id="right-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="0">
+                    <Image src="library/assets/ui/mf-arrow-right.png"/>
+                </Container>
+            </Button>
+        </Menu>
+        <GestureList>
+            <Gesture gestureOn="true" ref="n-rotate"/>
+            <Gesture gestureOn="true" ref="n-scale"/>
+        </GestureList>
+    </AlbumViewer2>
+    <AlbumViewer2 affineTransform="true" autoTextLayout="false" class="viewers" clusterBubbling="true" front="#front" gestureReleaseInertia="true" id="GeorgeandMarthaWashington2-PopUp" mouseChildren="true" nativeTransform="true" visible="false">
+        <TouchContainer2 affineTransform="true" id="titleTouch" mouseChildren="true" nativeTransform="false" targetParent="false">
+            <Image src="library/assets/ui/mf-bg.png"/>
+            <Image src="library/assets/ui/mf-trim-bottom.png" x="2" y="410"/>
+            <Image height="350" src="library/assets/ui/gradient.png" width="500" x="2" y="60"/>
+            <Text color="0x000000" font="BaskervilleBold" fontSize="24" id="titleAlbum" text="George and Martha Washington" width="500" x="10" y="10"/>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <Image src="library/assets/ui/mf-trim-top.png" x="2" y="54"/>
+        </TouchContainer2>
+        <Album affineTransform="true"  applyMask="true" centerContent="false" dragGesture="album-drag" gestureReleaseInertia="true" height="350" horizontal="true" id="front" margin="0" mouseChildren="true" nativeTransform="true" targetParent="false" visible="true" width="500" x="2" y="60">
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/gw-peale-2.png" width="500"/>
+            </Container>
+            <Container height="350" mouseChildren="true" width="500">
+                <Image height="350" src="library/assets/media/mw-peale.png" width="500"/>
+            </Container>
+        </Album>
+        <TouchContainer2 affineTransform="true" id="descriptions" nativeTransform="false" targetParent="false">
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">When George Washington returned from the American Revolution, he almost immediately turned his attention to redesigning the landscape in a more naturalistic style.  He was engaged with this project until he left for the Constitutional Convention in 1787.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+            <TLF class="desc" color="0x000000" font="BaskervilleTLF" height="100" width="475" x="17" y="430">
+                <TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+                    <p fontSize="14" paddingLeft="15" paddingRight="15">When George Washington returned from the American Revolution, he almost immediately turned his attention to redesigning the landscape in a more naturalistic style.  He was engaged with this project until he left for the Constitutional Convention in 1787.</p>
+                </TextFlow>
+            </TLF>
+            <Gesture gestureOn="true" ref="n-drag"/>
+        </TouchContainer2>
+        <Include src="library/cml/buttons/closeButton.cml"/>
+        <Menu affineTransform="true" alpha="0.75" autohide="true" class="menuButtons" nativeTransform="true" paddingBottom="10" paddingLeft="0" paddingRight="10" position="bottomRight" visible="false" x="0" y="-80">
+            <Button class="left_button" dispatch="down:info" down="info-down" hit="info-hit" id="left-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="-380">
+                    <Image src="library/assets/ui/mf-arrow-left.png"/>
+                </Container>
+            </Button>
+            <Button class="right_button" dispatch="down:info" down="info-down" hit="info-hit" id="right-btn" initial="info-up" out="info-up" up="info-up">
+                <Container id="info-up" x="0">
+                    <Image src="library/assets/ui/mf-arrow-right.png"/>
+                </Container>
+            </Button>
+        </Menu>
+        <GestureList>
+            <Gesture gestureOn="true" ref="n-rotate"/>
+            <Gesture gestureOn="true" ref="n-scale"/>
+        </GestureList>
+    </AlbumViewer2>
+</cml>

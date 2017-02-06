@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml>
+	<!-- <Viewer>
+		<id>Mansion1-PopUp</id>	
+		<panel-name>Mansion</panel-name>
+		<text-name>Description</text-name>
+		<title>Mansion</title>
+		
+	</Viewer>
+	
+	<Mansion>
+		<media>library/assets/media/approach-1.jpg</media>
+	</Mansion>	
+	<Mansion>
+		<media>library/assets/media/approach-2.jpg</media>
+	</Mansion>	
+	<Mansion>
+		<media>library/assets/media/approach-1.jpg</media>
+	</Mansion>	
+	
+	<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14" paddingRight="15" paddingLeft="15">  </p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	
+		<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14" paddingRight="15" paddingLeft="15">a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a
+			a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a </p> </TextFlow>]]>
+		</desc_text>
+	</Description>
+	
+		<Description>
+		<desc_text><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+			<p fontSize="14" paddingRight="15" paddingLeft="15">a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a
+			a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a </p> </TextFlow>]]>
+		</desc_text>
+	</Description> 
+	-->
+	<Viewer>
+        <id>Mansion1-PopUp</id>
+        <panel-name>Mansion1</panel-name>
+        <title>Mansion</title>
+		<Mansionimage>library/assets/media/mansion-1.jpg</Mansionimage>
+		 <Mansion1desc><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+		<p fontSize="14" paddingRight="15" paddingLeft="15">George Washington took a lifetime lease on Mount Vernon in 1754 from the widow of his elder half-brother, Lawrence. At that time, the house was a much smaller dwelling-large for the time, but small in comparison to the Mansion it would become.</p> </TextFlow>]]></Mansion1desc>
+    </Viewer>
+	 
+	<Viewer>
+        <id>Outbuildings-PopUp</id>
+        <panel-name>Outbuildings</panel-name>
+        <title>Outbuildings</title>
+		<Mansionimage>library/assets/media/outbuildings-1-1.jpg</Mansionimage>
+		 <Mansion1desc><![CDATA[<TextFlow xmlns="http://ns.adobe.com/textLayout/2008">
+		<p fontSize="14" paddingRight="15" paddingLeft="15">The kitchen, dairy, and other outbuildings were arranged in a symmetrical pattern that radiated out from the house, emphasizing architectural massing and providing a genteel feeling to the estate. These outbuildings provided the services needed by the Washington family, and little effort was made to mask the messy processes that each contained.  Archaeologists uncovered the original foundations of the south side of the Mansion-the kitchen and dairy-in the summer of 2013.</p> </TextFlow>]]></Mansion1desc>
+    </Viewer>
+   
+   <!--
+    <Viewer>
+        <id>HouseforFamilies-PopUp</id>
+        <panel-name>HouseforFamilies</panel-name>
+        <title>House for Families</title>
+		<HouseforFamiliesimage>library/assets/media/house-for-families-1.jpg</HouseforFamiliesimage>
+		<HouseforFamiliesdesc>It is possible that Lawrence Washington built this large frame building, which served as the main housing for most of the 67 enslaved persons on the home farm in 1786.  This painting provides the only visual evidence for the appearance of the almost 4,000 square foot building, which was demolished in the winter of 1793.</HouseforFamiliesdesc>
+    </Viewer>
+   <Viewer>
+        <id>LawrenceWashington-PopUp</id>
+        <panel-name>LawrenceWashington</panel-name>
+        <title>Lawrence Washington</title>
+		<LawrenceWashingtonimage>library/assets/media/lawrence-washington-1.jpg</LawrenceWashingtonimage>
+		<LawrenceWashingtondesc>George Washingtons elder half-brother, Lawrence, inherited the 2,000 acre Little Hunting Creek property from his father, Augustine, in 1743.  He named the estate after British Admiral Edward Vernon, after fighting under the naval hero in the War of Jenkins Ear.</LawrenceWashingtondesc>
+    </Viewer>
+<Viewer>
+        <id>Approach1-PopUp</id>
+        <panel-name>Approach1</panel-name>
+        <title>Approach</title>
+		<Approach1image>library/assets/media/no image</Approach1image>
+		<Approach1desc>When George Washington first took a lifetime lease on Mount Vernon, guests approached the Mansion by a drive on axis with the west door.  Later, Washington added a carriage circle, which allowed horse drawn vehicles to turn around more easily.</Approach1desc>
+    
+    </Viewer>
+    <Viewer>
+        <id>NorthLane-PopUp</id>
+        <panel-name>NorthLane</panel-name>
+        <title>North Lane</title>
+		 <NorthLaneimage>library/assets/media/no image</NorthLaneimage>
+    <NorthLanedesc>The north lane provided an alternative to the formal entrance to the estate.  It served as the primary access point for the enslaved population and Washington eventually built outbuildings flanking the roadway.</NorthLanedesc>
+    
+    </Viewer>
+	
+    -->
+   
+</cml>	

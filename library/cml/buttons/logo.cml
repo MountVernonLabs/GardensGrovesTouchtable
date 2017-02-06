@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cml>
+
+<Button id="logo-btn" dispatch="down:logo" hit="logo-hit" down="logo">
+	<Image id="logo" src="library/assets/images/WhiteLogo.png"  />
+	<Graphic id="logo-hit-area" shape="rectangle" alpha="0.5" />
+</Button>
+
+</cml>

@@ -1,0 +1,9 @@
+@font-face
+{ 
+	src:url("fonts/Baskerville.ttc");
+            fontFamily: "Baskerville Regular";
+			fontSize:24; 
+			multiline:true; 
+			wordWrap:true;
+            embedAsCFF: true;
+}

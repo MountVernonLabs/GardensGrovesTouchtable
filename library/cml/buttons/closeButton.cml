@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cml>
+
+	<Button id="close-btn" class="close_btn" dispatch="down:close" hit="hit" initial="close-up" down="close-up" up="close-up" out="close-up" x="460" y="11">
+		<Container id="close-up" class="up">
+				<Image src="library/assets/ui/mf-close.png"/>
+		</Container>	
+	</Button>
+
+</cml>

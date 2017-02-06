@@ -1,0 +1,34 @@
+2014-02-12 15:37:16: -- gardens and groves: ANALYSIS started by User on 'GREG-PC' (GoodSync 9.5.6.6)
+2014-02-12 15:37:16: Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media =PropDels=> C:\repo\cs007-gardens-and-groves\bin\library\assets\media
+2014-02-12 15:37:16: L: Files: 40 (excluded 26). Folders: 0 (excluded 1). Z: \\10.1.10.100\media NTFS, Free: 59.1 GB, Total: 458 GB
+2014-02-12 15:37:16: R: Files: 40 (excluded 0). Folders: 0 (excluded 1). C: NTFS, Free: 343 GB, Total: 465 GB
+2014-02-12 15:37:16: Changes: 21, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-02-12 15:37:16: Left to Right: Copy File: 21 
+2014-02-12 15:37:16: -- Analysis Completed. Time 00:00:00, Speed: Many files/s
+2014-02-12 15:37:16: 
+2014-02-12 15:37:21: == gardens and groves: SYNC started by User on 'GREG-PC'
+2014-02-12 15:37:21: Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media =PropDels=> C:\repo\cs007-gardens-and-groves\bin\library\assets\media
+2014-02-12 15:37:21: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\approach-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\approach-1.png'
+2014-02-12 15:37:21: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\botanical-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\botanical-1.png'
+2014-02-12 15:37:21: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\botanical-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\botanical-2.png'
+2014-02-12 15:37:21: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\bowling-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\bowling-1.png'
+2014-02-12 15:37:22: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\bowling-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\bowling-2.png'
+2014-02-12 15:37:22: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\bowling-3.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\bowling-3.png'
+2014-02-12 15:37:22: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\bowling-4.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\bowling-4.png'
+2014-02-12 15:37:22: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\garden-lower-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\garden-lower-1.png'
+2014-02-12 15:37:22: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\garden-lower-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\garden-lower-2.png'
+2014-02-12 15:37:22: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\garden-upper-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\garden-upper-1.png'
+2014-02-12 15:37:22: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\garden-upper-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\garden-upper-2.png'
+2014-02-12 15:37:22: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\ghsq-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\ghsq-1.png'
+2014-02-12 15:37:23: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\ghsq-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\ghsq-2.png'
+2014-02-12 15:37:23: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\greenhouse-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\greenhouse-1.png'
+2014-02-12 15:37:23: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\greenhouse-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\greenhouse-2.png'
+2014-02-12 15:37:23: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\greenhouse-3.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\greenhouse-3.png'
+2014-02-12 15:37:23: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\groves-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\groves-1.png'
+2014-02-12 15:37:23: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\gw-peale-1.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\gw-peale-1.png'
+2014-02-12 15:37:23: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\mw-wollaston.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\mw-wollaston.png'
+2014-02-12 15:37:23: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\potomac-2.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\potomac-2.png'
+2014-02-12 15:37:23: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\potomac-3.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\potomac-3.png'
+2014-02-12 15:37:23: Items Synced OK: 21, Errors: 0
+2014-02-12 15:37:23: == Sync Completed. Time: 00:00:02, Speed: 9.82 MB/s (10.9 MB/s)
+2014-02-12 15:37:23: 

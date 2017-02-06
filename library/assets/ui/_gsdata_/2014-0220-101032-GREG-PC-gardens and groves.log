@@ -1,0 +1,16 @@
+2014-02-20 10:10:32: -- gardens and groves: ANALYSIS started by User on 'GREG-PC' (GoodSync 9.5.6.6)
+2014-02-20 10:10:32: Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui =PropDels=> C:\repo\cs007-gardens-and-groves\bin\library\assets\ui
+2014-02-20 10:10:32: L: Files: 27 (excluded 26). Folders: 0 (excluded 1). Z: \\10.1.10.100\media NTFS, Free: 58.0 GB, Total: 458 GB
+2014-02-20 10:10:32: R: Files: 26 (excluded 0). Folders: 0 (excluded 1). C: NTFS, Free: 334 GB, Total: 465 GB
+2014-02-20 10:10:32: Changes: 3, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-02-20 10:10:32: Left to Right: Copy File: 3 
+2014-02-20 10:10:32: -- Analysis Completed. Time 00:00:00, Speed: Many files/s
+2014-02-20 10:10:32: 
+2014-02-20 10:10:36: == gardens and groves: SYNC started by User on 'GREG-PC'
+2014-02-20 10:10:36: Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui =PropDels=> C:\repo\cs007-gardens-and-groves\bin\library\assets\ui
+2014-02-20 10:10:36: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\intro-card.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\intro-card.png'
+2014-02-20 10:10:36: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\mf-bg-lg.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\mf-bg-lg.png'
+2014-02-20 10:10:36: Copy Over 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\ui\mf-bg.png' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\ui\mf-bg.png'
+2014-02-20 10:10:37: Items Synced OK: 3, Errors: 0
+2014-02-20 10:10:37: == Sync Completed. Time: 00:00:01, Speed: 
+2014-02-20 10:10:37: 

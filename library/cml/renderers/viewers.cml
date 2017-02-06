@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml>
+	<RenderKit>
+		<Renderer id="viewers" dataRootTag="Viewer" dataPath="locations/viewers.cml">
+
+			<AlbumViewer2 id="{id}" front="#front" class="viewers" visible="false" autoTextLayout="false" mouseChildren="true" clusterBubbling="true" gestureReleaseInertia="true" nativeTransform="true" affineTransform="true">
+				
+				<TouchContainer2 id="titleTouch" targetParent="false" nativeTransform="false" mouseChildren="true" affineTransform="true">
+					<Image src="library/assets/ui/mf-bg.png"/>	
+					<Text id="titleAlbum" width="500" x="10" y="10" fontSize="24" color="0x000000" text="{title}" font="BaskervilleBoldTLF" />
+					<Gesture ref="n-drag" gestureOn="true"/>
+					<Image src="library/assets/ui/mf-trim-bottom.png" x="2" y="410"/>
+					<Image src="library/assets/ui/mf-trim-top.png"  x="2" y="54"/>
+				</TouchContainer2>
+	
+				<Album id="front" margin="0" horizontal="true" x="2" y="60" width="500" height="350" affineTransform="true" applyMask="true" visible="true" targetParent="false" nativeTransform="true" mouseChildren="true" gestureReleaseInertia="true"  dragGesture="album-drag" centerContent="false">	
+					
+					<RenderKit>
+						<Renderer dataRootTag="Viewer" dataPath="locations/viewers.cml">
+							<Container width="500" height="350" mouseChildren="true"> 
+								<Image src="{title}image" width="500" height="350"/>	
+							</Container>
+						</Renderer>
+					</RenderKit>
+				</Album>
+				
+				
+				<TouchContainer2 id="descriptions" targetParent="false" nativeTransform="false" affineTransform="true">					
+					<RenderKit>
+						<Renderer dataRootTag="Viewer" dataPath="locations/viewers.cml">
+							<TLF x="17" y="430" width="475" height="100" font="BaskervilleBoldTLF" color="0x000000" class="desc">
+								{Mansion1desc}
+							</TLF>
+						</Renderer>
+					</RenderKit>	
+					<Gesture ref="n-drag" gestureOn="true"/>
+				</TouchContainer2>
+				
+				<Include src="library/cml/buttons/closeButton.cml"/>
+				
+				<Menu class="menuButtons" x="0" y="-80" alpha="0.75" position="bottomRight" autohide="true" paddingBottom="10" paddingLeft="0" paddingRight="10" visible="false" nativeTransform="false" affineTransform="true">			
+					<Button id="left-btn" class="left_button" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+						<Container id="info-up" x="-380">
+							<Image src="library/assets/ui/mf-arrow-left.png"/>	
+						</Container>
+					</Button>
+					<Button id="right-btn" class="right_button" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+						<Container id="info-up" x="0">
+							<Image src="library/assets/ui/mf-arrow-right.png"/>	
+						</Container>
+					</Button>
+				</Menu>
+				
+			<GestureList>
+				<!--<Gesture ref="n-rotate" gestureOn="true"/> -->
+				<!-- <Gesture ref="n-scale" gestureOn="true"/> -->
+			</GestureList>
+			
+			</AlbumViewer2>	
+			
+		</Renderer>
+	</RenderKit>
+
+</cml>
+
+
+

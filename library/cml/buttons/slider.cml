@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-	8"?>
+<cml>
+	<Container id = "frontImages"x="1469" y="1025">
+		<Image id="1758-back" width="64" height="24" x="38" y="20"  src="library/assets/ui/selector-1758-inactive.png"/>
+		<Image id="1784-back" width="64" height="24" x="157" y="20"  src="library/assets/ui/selector-1784-inactive.png"/>
+		<Image id="1799-back" width="64" height="24" x="275" y="20"  src="library/assets/ui/selector-1799-inactive.png"/>
+	</Container>
+
+	<MaskContainer id="maskCon" maskShape="rectangle" x="1469" y="1025" maskX="60" maskY="30" maskWidth="113" maskHeight="60" maskBorderColor="0xff0000" maskBorderStroke="3" maskBorderAlpha="1" mouseChildren="true" >
+		<Container id="mask" visible="false" width="354" height="50">
+			<Image id="1758-up" x="38" y="20" width="64" height="24" src="library/assets/ui/selector-1758-active.png"/>
+			<Image id="1784-up" x="157" y="20" width="64" height="24" src="library/assets/ui/selector-1784-active.png"/>
+			<Image id="1799-up" x="275" y="20" width="64" height="24"  src="library/assets/ui/selector-1799-active.png"/>
+		</Container>	
+	</MaskContainer>
+
+	<Image x="1476"  y="997"id="slider" src="library/assets/ui/selector-slider.png"/>
+
+	<Button id="sliderButton1" x="1470" y="1037" hit="#hit-area" initial="white" down="blue" up="red" out="purple">	
+		<Graphic id="hit-area" shape="rectangle" height="40" width="124" alpha="0" />
+		<Graphic id="white" shape="rectangle" height="40" width="124" lineStroke="0" alpha="0"/>
+	</Button>
+
+	<Button id="sliderButton2" x="1602" y="1037" hit="#hit-area" initial="white" down="blue" up="red" out="purple">	
+		<Graphic id="hit-area" shape="rectangle" height="40" width="113" alpha="0" />
+		<Graphic id="white" shape="rectangle" height="40" width="113" lineStroke="0" alpha="0"/>
+	</Button>
+
+	<Button id="sliderButton3" x="1720" y="1037" hit="#hit-area" initial="white" down="blue" up="red" out="purple">	
+		<Graphic id="hit-area" shape="rectangle" height="40" width="125" alpha="0" />
+		<Graphic id="white" shape="rectangle" height="40" width="125" lineStroke="0" alpha="0"/>
+	</Button>
+
+</cml>
+
+
+

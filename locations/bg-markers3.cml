@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml>
+    <Image class="bg-marker-3" src="library/assets/ui/pin-inactive.png" visible="true" x="911" y="56">
+        <Graphic alpha="1" color="0x392C1E" fill="color" height="30" id="btn" shape="rectangle" width="110" x="25" y="5"/>
+        <Text color="0xffffff" font="BaskervilleSemiBold" fontSize="16" id="titleAlbum" text="Mansion " width="350" x="50" y="10"/>
+    </Image>
+    <Image class="bg-marker-3" src="library/assets/ui/pin-inactive.png" visible="true" x="842" y="910">
+        <Graphic alpha="1" color="0x392C1E" fill="color" height="30" id="btn" shape="rectangle" width="115" x="25" y="5"/>
+        <Text color="0xffffff" font="BaskervilleSemiBold" fontSize="16" id="titleAlbum" text="Approach" width="350" x="50" y="10"/>
+    </Image>
+    <Image class="bg-marker-3" src="library/assets/ui/pin-inactive.png" visible="true" x="1470" y="99">
+        <Graphic alpha="1" color="0x392C1E" fill="color" height="30" id="btn" shape="rectangle" width="156" x="25" y="5"/>
+        <Text color="0xffffff" font="BaskervilleSemiBold" fontSize="16" id="titleAlbum" text="Potomac River" width="350" x="50" y="10"/>
+    </Image>
+    <Image class="bg-marker-3" src="library/assets/ui/pin-inactive.png" visible="true" x="1195" y="435">
+        <Graphic alpha="1" color="0x392C1E" fill="color" height="30" id="btn" shape="rectangle" width="110" x="25" y="5"/>
+        <Text color="0xffffff" font="BaskervilleSemiBold" fontSize="16" id="titleAlbum" text="Gardens" width="350" x="50" y="10"/>
+    </Image>
+    <Image class="bg-marker-3" src="library/assets/ui/pin-inactive.png" visible="true" x="584" y="409">
+        <Graphic alpha="1" color="0x392C1E" fill="color" height="30" id="btn" shape="rectangle" width="135" x="25" y="5"/>
+        <Text color="0xffffff" font="BaskervilleSemiBold" fontSize="16" id="titleAlbum" text="Greenhouse" width="350" x="50" y="10"/>
+    </Image>
+    <Image class="bg-marker-3" src="library/assets/ui/pin-inactive.png" visible="true" x="551" y="500">
+        <Graphic alpha="1" color="0x392C1E" fill="color" height="30" id="btn" shape="rectangle" width="250" x="25" y="5"/>
+        <Text color="0xffffff" font="BaskervilleSemiBold" fontSize="16" id="titleAlbum" text="Greenhouse Slave Quarter" width="350" x="50" y="10"/>
+    </Image>
+    <Image class="bg-marker-3" src="library/assets/ui/pin-inactive.png" visible="true" x="755" y="134">
+        <Graphic alpha="1" color="0x392C1E" fill="color" height="30" id="btn" shape="rectangle" width="100" x="25" y="5"/>
+        <Text color="0xffffff" font="BaskervilleSemiBold" fontSize="16" id="titleAlbum" text="Groves" width="350" x="50" y="10"/>
+    </Image>
+    <Image class="bg-marker-3" src="library/assets/ui/pin-inactive.png" visible="true" x="733" y="273">
+        <Graphic alpha="1" color="0x392C1E" fill="color" height="30" id="btn" shape="rectangle" width="175" x="25" y="5"/>
+        <Text color="0xffffff" font="BaskervilleSemiBold" fontSize="16" id="titleAlbum" text="Botanical Garden" width="350" x="50" y="10"/>
+    </Image>
+    <Image class="bg-marker-3" src="library/assets/ui/pin-inactive.png" visible="true" x="931" y="555">
+        <Graphic alpha="1" color="0x392C1E" fill="color" height="30" id="btn" shape="rectangle" width="156" x="25" y="5"/>
+        <Text color="0xffffff" font="BaskervilleSemiBold" fontSize="16" id="titleAlbum" text="Bowling Green" width="350" x="50" y="10"/>
+    </Image>
+    <Image class="bg-marker-3" src="library/assets/ui/pin-inactive.png" visible="true" x="417" y="361">
+        <Graphic alpha="1" color="0x392C1E" fill="color" height="30" id="btn" shape="rectangle" width="144" x="25" y="5"/>
+        <Text color="0xffffff" font="BaskervilleSemiBold" fontSize="16" id="titleAlbum" text="Slave Cabins" width="350" x="50" y="10"/>
+    </Image>
+    <Image class="bg-marker-3" src="library/assets/ui/pin-inactive.png" visible="true" x="1050" y="80">
+        <Graphic alpha="1" color="0x392C1E" fill="color" height="30" id="btn" shape="rectangle" width="290" x="25" y="5"/>
+        <Text color="0xffffff" font="BaskervilleSemiBold" fontSize="16" id="titleAlbum" text="George and Martha Washington" width="350" x="50" y="10"/>
+    </Image>
+</cml>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cml>
+
+	<Button toggle="up"> 
+		<Include src="library/cml/buttons/playButton.cml" />
+		<Include src="library/cml/buttons/pauseButton.cml" />
+	</Button>
+	
+</cml>

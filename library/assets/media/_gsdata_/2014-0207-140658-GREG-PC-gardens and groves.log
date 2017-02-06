@@ -1,0 +1,14 @@
+2014-02-07 14:06:58: -- gardens and groves: ANALYSIS started by User on 'GREG-PC' (GoodSync 9.5.6.6)
+2014-02-07 14:06:58: Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media =PropDels=> C:\repo\cs007-gardens-and-groves\bin\library\assets\media
+2014-02-07 14:06:58: L: Files: 40 (excluded 23). Folders: 0 (excluded 1). Z: \\10.1.10.100\media NTFS, Free: 57.5 GB, Total: 458 GB
+2014-02-07 14:06:58: R: Files: 39 (excluded 0). Folders: 0 (excluded 1). C: NTFS, Free: 345 GB, Total: 465 GB
+2014-02-07 14:06:58: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-02-07 14:06:58: Left to Right: Copy File: 1 
+2014-02-07 14:06:58: -- Analysis Completed. Time 00:00:00, Speed: Many files/s
+2014-02-07 14:06:58: 
+2014-02-07 14:07:01: == gardens and groves: SYNC started by User on 'GREG-PC'
+2014-02-07 14:07:01: Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media =PropDels=> C:\repo\cs007-gardens-and-groves\bin\library\assets\media
+2014-02-07 14:07:01: Copy New 'Z:\Active-Projects\cs007-gardens-and-groves\bin\library\assets\media\Outbuildings-2_2 copy.jpg' -> 'C:\repo\cs007-gardens-and-groves\bin\library\assets\media\Outbuildings-2_2 copy.jpg'
+2014-02-07 14:07:01: Items Synced OK: 1, Errors: 0
+2014-02-07 14:07:01: == Sync Completed. Time: 00:00:00, Speed: 2.31 MB/s (10.7 MB/s)
+2014-02-07 14:07:01: 
